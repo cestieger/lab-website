@@ -106,3 +106,17 @@
   image: images/publications/anie-202205348.jpg
 - id: doi:10.1002/ANIE.202100683
   image: images/publications/anie-202100683.jpg
+
+# Pre-PhD papers (Master thesis / research associate), listed in a separate section without images
+- id: doi:10.1021/ACS.JPROTEOME.0C01000
+  group: early
+- id: doi:10.1038/s41594-019-0270-6
+  group: early
+- id: doi:10.1021/acs.analchem.9b00658
+  group: early
+- id: doi:10.1021/acs.jproteome.8b00947
+  group: early
+- id: doi:10.1002/CHEM.201702904
+  group: early
+- id: doi:10.1002/chem.201703497
+  group: early
