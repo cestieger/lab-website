@@ -316,8 +316,9 @@
   date: '2021-04-14'
   link: https://doi.org/hcq7jj
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  group: early
 - id: doi:10.1021/JACS.0C03426
   title: "Chemically Induced Vinylphosphonothiolate Electrophiles for Thiol\u2013\
     Thiol Bioconjugations"
@@ -371,8 +372,9 @@
   date: '2019-08-01'
   link: https://doi.org/hcq7gs
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  group: early
 - id: doi:10.1021/acs.analchem.9b00658
   title: 'First Community-Wide, Comparative Cross-Linking Mass
 
@@ -456,8 +458,9 @@
   date: '2019-05-02'
   link: https://doi.org/gjdf2x
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  group: early
 - id: doi:10.1021/acs.jproteome.8b00947
   title: Optimized Fragmentation Improves the Identification of Peptides Cross-Linked
     by MS-Cleavable Reagents
@@ -469,8 +472,9 @@
   date: '2019-01-29'
   link: https://doi.org/hcq7gt
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  group: early
 - id: doi:10.1002/CHEM.201702904
   title: "Determination of the Absolute Configuration of (\u2212)\u2010Hydroxynitrilaphos\
     \ and Related Biosynthetic Questions"
@@ -482,8 +486,9 @@
   date: '2017-09-25'
   link: https://doi.org/hkd3
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  group: early
 - id: doi:10.1002/chem.201703497
   title: "Determination of the Absolute Configuration of (\u2212)\u2010Hydroxynitrilaphos\
     \ and Related Biosynthetic Questions"
@@ -495,5 +500,6 @@
   date: '2017-09-12'
   link: https://doi.org/hcq7gv
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  group: early
