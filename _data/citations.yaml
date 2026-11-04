@@ -27,7 +27,7 @@
 - id: doi:10.1021/jacs.5c22349
   title: Modular Vinyl Phosphonamidates for Cysteine-Directed Protein Targeting
   authors:
-  - Christian E. Stieger
+  - "Christian E. Stieger<sup>\u2709</sup>"
   - "Charlotte V\xF6lkel"
   - Mathias B. Bertelsen
   - Michael Lisurek
@@ -44,8 +44,8 @@
   date: '2026-02-10'
   link: https://doi.org/hcq7f5
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.64898/2026.01.13.697720
   title: Active Site-Directed Probes for targeting Bacterial Phosphoarginine Phosphatases
   authors:
@@ -122,9 +122,9 @@
   title: Nucleoside diphosphate kinase A (NME1) catalyses its own oligophosphorylation
   authors:
   - Arif Celik
-  - "Felix Sch\xF6pf"
-  - Christian E. Stieger
-  - Sarah Lampe
+  - "Felix Sch\xF6pf<sup>\u2020</sup>"
+  - "Christian E. Stieger<sup>\u2020</sup>"
+  - "Sarah Lampe<sup>\u2020</sup>"
   - "Bj\xF6rn Hanf"
   - Jeremy A. M. Morgan
   - Max Ruwolt
@@ -136,8 +136,8 @@
   date: '2025-08-20'
   link: https://doi.org/hcq7gb
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1021/jacs.5c02981
   title: Orthogonal Site-Specific Dual Bioconjugation of Aryl and Alkyl Thiols
   authors:
@@ -190,9 +190,9 @@
   title: "Unsaturated Phosphine Oxides for Modular Antibody Rebridging and Single\
     \ Reagent Peptide\u2010Cyclization\u2010Bioconjugation"
   authors:
-  - Christian E. Stieger
-  - Alastair J. McMillan
-  - Mark A. R. de Geus
+  - "Christian E. Stieger<sup>\u2020</sup>"
+  - "Alastair J. McMillan<sup>\u2020</sup>"
+  - "Mark A. R. de Geus<sup>\u2020</sup>"
   - Jan Vincent V. Arafiles
   - Luise Franz
   - Christian P. R. Hackenberger
@@ -200,8 +200,8 @@
   date: '2025-08-08'
   link: https://doi.org/hcq7jc
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.26434/CHEMRXIV-2024-T9N2B
   title: Chemoselective placement of unsaturated phosphorus electrophiles into ubiquitin
     for proximity-induced protein targeting
@@ -223,18 +223,9 @@
   orcid: 0000-0001-5829-2307
   plugin: orcid.py
   file: orcid.yaml
-- id: wosuid:WOS:001314146400707
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001314146400707
-  orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1039/D3SC05006H
-  title: "Rapid building block-economic synthesis of long, multi-\n              \
-    \      <i>O</i>\n                    -GalNAcylated MUC5AC tandem repeat peptides"
+  title: Rapid building block-economic synthesis of long, multi-O-GalNAcylated MUC5AC
+    tandem repeat peptides
   authors:
   - Arseniy Galashov
   - Ekaterina Kazakova
@@ -245,23 +236,8 @@
   date: '2024-01-01'
   link: https://doi.org/hcq7jf
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.26434/CHEMRXIV-2023-JG9VN
-  title: Rapid building block-economic synthesis of long, multi-O-GalNAcylated MUC5AC
-    tandem repeat peptides
-  authors:
-  - Arseniy Galashov
-  - Ekaterina Kazakova
-  - Christian Stieger
-  - Christian Hackenberger
-  - Oliver Seitz
-  publisher: American Chemical Society (ACS)
-  date: '2023-09-18'
-  link: https://doi.org/hcq7jh
-  orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1039/D2SC06986E
   title: Real-time monitoring of the sialic acid biosynthesis pathway by NMR
   authors:
