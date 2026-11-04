@@ -83,29 +83,6 @@
     - Markus Schirle
     - Daniel K. Nomura<sup>&#42;</sup>
 
-# TOC / abstract graphics (images/publications)
-- id: doi:10.1021/acscentsci.5c02277
-  image: images/publications/acscentsci-5c02277.jpg
-- id: doi:10.1021/jacs.5c22349
-  image: images/publications/jacs-5c22349.jpg
-- id: doi:10.1002/ANIE.202521902
-  image: images/publications/anie-202521902.jpg
-- id: doi:10.1038/s41557-025-01931-8
-  image: images/publications/s41557-025-01931-8.png
-- id: doi:10.1038/s41557-025-01915-8
-  image: images/publications/s41557-025-01915-8.png
-- id: doi:10.1021/jacs.5c02981
-  image: images/publications/jacs-5c02981.jpg
-- id: doi:10.1002/ANIE.202508656
-  image: images/publications/anie-202508656.jpg
-- id: doi:10.1039/D3SC05006H
-  image: images/publications/d3sc05006h.jpg
-- id: doi:10.1039/D2SC06986E
-  image: images/publications/d2sc06986e.jpg
-- id: doi:10.1002/ANIE.202205348
-  image: images/publications/anie-202205348.jpg
-- id: doi:10.1002/ANIE.202100683
-  image: images/publications/anie-202100683.jpg
 
 # Pre-PhD papers (Master thesis / research associate), listed in a separate section without images
 - id: doi:10.1021/ACS.JPROTEOME.0C01000
@@ -119,4 +96,24 @@
 - id: doi:10.1002/CHEM.201702904
   group: early
 - id: doi:10.1002/chem.201703497
-  group: early
+  remove: true
+
+# UC Berkeley (Nomura lab) publications
+- id: doi:10.1021/acscentsci.5c02277
+  group: berkeley
+- id: doi:10.1016/J.BMCL.2026.130743
+  group: berkeley
+- id: doi:10.1002/ANIE.202508518
+  group: berkeley
+
+# Selected publications shown at the top
+- id: doi:10.1021/acscentsci.5c02277
+  highlight: true
+- id: doi:10.1021/jacs.5c22349
+  highlight: true
+- id: doi:10.1002/ANIE.202508656
+  highlight: true
+- id: doi:10.1002/ANIE.202205348
+  highlight: true
+- id: doi:10.1002/ANIE.202100683
+  highlight: true
