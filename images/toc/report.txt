@@ -1,0 +1,30 @@
+doi:10.1021/acscentsci.5c02277	403	https://pubs.acs.org/doi/10.1021/acscentsci.5c02277
+doi:10.1021/jacs.5c22349	403	https://pubs.acs.org/doi/10.1021/jacs.5c22349
+doi:10.64898/2026.01.13.697720	200	https://www.biorxiv.org/content/10.64898/2026.01.13.697720v1
+  saved images/toc/10-64898-2026-01-13-697720-1.png	15794	https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png
+doi:10.1016/J.BMCL.2026.130743	200	https://linkinghub.elsevier.com/retrieve/pii/S0960894X26002106
+doi:10.1002/ANIE.202521902	403	https://onlinelibrary.wiley.com/doi/10.1002/anie.202521902
+doi:10.1038/s41557-025-01931-8	200	https://www.nature.com/articles/s41557-025-01931-8
+  saved images/toc/10-1038-s41557-025-01931-8-1.png	128420	https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41557-025-01931-8/MediaObjects/41557_2025_1931_Figa_HTML.png
+  saved images/toc/10-1038-s41557-025-01931-8-2.png	143853	https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41557-025-01931-8/MediaObjects/41557_2025_1931_Figa_HTML.png
+doi:10.1038/s41557-025-01915-8	200	https://www.nature.com/articles/s41557-025-01915-8
+  saved images/toc/10-1038-s41557-025-01915-8-1.png	104544	https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41557-025-01915-8/MediaObjects/41557_2025_1915_Figa_HTML.png
+  saved images/toc/10-1038-s41557-025-01915-8-2.png	119903	https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41557-025-01915-8/MediaObjects/41557_2025_1915_Figa_HTML.png
+doi:10.1021/jacs.5c02981	403	https://pubs.acs.org/doi/10.1021/jacs.5c02981
+doi:10.1002/ANIE.202508518	403	https://onlinelibrary.wiley.com/doi/10.1002/anie.202508518
+doi:10.1002/ANIE.202508656	403	https://onlinelibrary.wiley.com/doi/10.1002/anie.202508656
+doi:10.26434/CHEMRXIV-2024-T9N2B	403	https://chemrxiv.org/doi/full/10.26434/chemrxiv-2024-t9n2b
+doi:10.1039/D3SC05006H	403	https://pubs.rsc.org/sc/article/15/4/1297-1305/827679
+doi:10.1039/D2SC06986E	403	https://pubs.rsc.org/sc/article/14/13/3482-3492/787162
+doi:10.1002/ANIE.202205348	403	https://onlinelibrary.wiley.com/doi/10.1002/anie.202205348
+doi:10.1002/ANIE.202100683	403	https://onlinelibrary.wiley.com/doi/10.1002/anie.202100683
+doi:10.1021/ACS.JPROTEOME.0C01000	403	https://pubs.acs.org/doi/10.1021/acs.jproteome.0c01000
+doi:10.1021/JACS.0C03426	403	https://pubs.acs.org/doi/10.1021/jacs.0c03426
+doi:10.1021/acs.orglett.9b03982	403	https://pubs.acs.org/doi/10.1021/acs.orglett.9b03982
+doi:10.1038/s41594-019-0270-6	200	https://www.nature.com/articles/s41594-019-0270-6
+  saved images/toc/10-1038-s41594-019-0270-6-1.png	220840	https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41594-019-0270-6/MediaObjects/41594_2019_270_Fig1_HTML.png
+  saved images/toc/10-1038-s41594-019-0270-6-2.png	931567	https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41594-019-0270-6/MediaObjects/41594_2019_270_Fig1_HTML.png
+doi:10.1021/acs.analchem.9b00658	403	https://pubs.acs.org/ancham/article/91/11/6953/821213/First-Community-Wide-Comparative-Cross-Linking
+doi:10.1021/acs.jproteome.8b00947	403	https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00947
+doi:10.1002/CHEM.201702904	403	https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.201702904
+doi:10.1002/chem.201703497	403	https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.201703497
