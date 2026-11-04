@@ -24,7 +24,8 @@
   orcid: 0000-0001-5829-2307
   plugin: sources.py
   file: sources.yaml
-  image: images/publications/acscentsci-5c02277.jpg
+  group: berkeley
+  highlight: true
 - id: doi:10.1021/jacs.5c22349
   title: Modular Vinyl Phosphonamidates for Cysteine-Directed Protein Targeting
   authors:
@@ -47,7 +48,7 @@
   orcid: 0000-0001-5829-2307
   plugin: sources.py
   file: sources.yaml
-  image: images/publications/jacs-5c22349.jpg
+  highlight: true
 - id: doi:10.64898/2026.01.13.697720
   title: Active Site-Directed Probes for targeting Bacterial Phosphoarginine Phosphatases
   authors:
@@ -84,8 +85,9 @@
   date: '2026-11-01'
   link: https://doi.org/hcq7h8
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  group: berkeley
 - id: doi:10.1002/ANIE.202521902
   title: Unsaturated Phosphorus Electrophiles to Probe Protein Tyrosine Phosphatases
   authors:
@@ -98,9 +100,8 @@
   date: '2026-02-03'
   link: https://doi.org/hcq7h9
   orcid: 0000-0001-5829-2307
-  plugin: sources.py
-  file: sources.yaml
-  image: images/publications/anie-202521902.jpg
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41557-025-01931-8
   title: Energy-transfer photoproximity labelling in live cells using an organic cofactor
   authors:
@@ -119,9 +120,8 @@
   date: '2025-09-17'
   link: https://doi.org/hcq7f8
   orcid: 0000-0001-5829-2307
-  plugin: sources.py
-  file: sources.yaml
-  image: images/publications/s41557-025-01931-8.png
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41557-025-01915-8
   title: Nucleoside diphosphate kinase A (NME1) catalyses its own oligophosphorylation
   authors:
@@ -142,7 +142,6 @@
   orcid: 0000-0001-5829-2307
   plugin: sources.py
   file: sources.yaml
-  image: images/publications/s41557-025-01915-8.png
 - id: doi:10.1021/jacs.5c02981
   title: Orthogonal Site-Specific Dual Bioconjugation of Aryl and Alkyl Thiols
   authors:
@@ -164,9 +163,8 @@
   date: '2025-05-05'
   link: https://doi.org/g9pp82
   orcid: 0000-0001-5829-2307
-  plugin: sources.py
-  file: sources.yaml
-  image: images/publications/jacs-5c02981.jpg
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/ANIE.202508518
   title: Sulfinyl Aziridines as Stereoselective Covalent Destabilizing Degraders of
     the Oncogenic Transcription Factor MYC
@@ -190,8 +188,9 @@
   date: '2025-09-25'
   link: https://doi.org/hcq7jb
   orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  group: berkeley
 - id: doi:10.1002/ANIE.202508656
   title: "Unsaturated Phosphine Oxides for Modular Antibody Rebridging and Single\
     \ Reagent Peptide\u2010Cyclization\u2010Bioconjugation"
@@ -208,7 +207,7 @@
   orcid: 0000-0001-5829-2307
   plugin: sources.py
   file: sources.yaml
-  image: images/publications/anie-202508656.jpg
+  highlight: true
 - id: doi:10.26434/CHEMRXIV-2024-T9N2B
   title: Chemoselective placement of unsaturated phosphorus electrophiles into ubiquitin
     for proximity-induced protein targeting
@@ -245,7 +244,6 @@
   orcid: 0000-0001-5829-2307
   plugin: sources.py
   file: sources.yaml
-  image: images/publications/d3sc05006h.jpg
 - id: doi:10.1039/D2SC06986E
   title: Real-time monitoring of the sialic acid biosynthesis pathway by NMR
   authors:
@@ -262,9 +260,8 @@
   date: '2023-01-01'
   link: https://doi.org/hcq7gh
   orcid: 0000-0001-5829-2307
-  plugin: sources.py
-  file: sources.yaml
-  image: images/publications/d2sc06986e.jpg
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/ANIE.202205348
   title: "DFT\u2010Guided Discovery of Ethynyl\u2010Triazolyl\u2010Phosphinates as\
     \ Modular Electrophiles for Chemoselective Cysteine Bioconjugation and Profiling"
@@ -287,7 +284,7 @@
   orcid: 0000-0001-5829-2307
   plugin: sources.py
   file: sources.yaml
-  image: images/publications/anie-202205348.jpg
+  highlight: true
 - id: doi:10.1002/ANIE.202100683
   title: "Diethynyl Phosphinates for Cysteine\u2010Selective Protein Labeling and\
     \ Disulfide Rebridging"
@@ -302,7 +299,7 @@
   orcid: 0000-0001-5829-2307
   plugin: sources.py
   file: sources.yaml
-  image: images/publications/anie-202100683.jpg
+  highlight: true
 - id: doi:10.1021/ACS.JPROTEOME.0C01000
   title: 'MS Annika: A New Cross-Linking Search Engine'
   authors:
@@ -485,20 +482,6 @@
   publisher: "Chemistry \u2013 A European Journal"
   date: '2017-09-25'
   link: https://doi.org/hkd3
-  orcid: 0000-0001-5829-2307
-  plugin: sources.py
-  file: sources.yaml
-  group: early
-- id: doi:10.1002/chem.201703497
-  title: "Determination of the Absolute Configuration of (\u2212)\u2010Hydroxynitrilaphos\
-    \ and Related Biosynthetic Questions"
-  authors:
-  - Katharina Pallitsch
-  - Barbara Happl
-  - Christian Stieger
-  publisher: "Chemistry \u2013 A European Journal"
-  date: '2017-09-12'
-  link: https://doi.org/hcq7gv
   orcid: 0000-0001-5829-2307
   plugin: sources.py
   file: sources.yaml
