@@ -43,7 +43,7 @@
       <div
         class="citation-authors"
         {% if citation.authors.size > 10 %}
-          data-tooltip="{{ citation.authors | join: ", " | xml_escape }}"
+          data-tooltip="{{ citation.authors | join: ", " | replace: "<sup>&#42;</sup>", "*" | strip_html | xml_escape }}"
         {% endif %}
         tabindex="0"
       >

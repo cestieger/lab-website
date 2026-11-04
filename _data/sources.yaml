@@ -27,7 +27,7 @@
 - id: doi:10.1039/D3SC05006H
   title: Rapid building block-economic synthesis of long, multi-O-GalNAcylated MUC5AC tandem repeat peptides
 
-# Author lists with equal-contribution (†) and corresponding-author (✉) markers,
+# Author lists with equal-contribution (†) and co-corresponding-author (*) markers,
 # checked against the published articles.
 - id: doi:10.1002/ANIE.202508656
   authors:
@@ -52,7 +52,7 @@
     - Dorothea Fiedler
 - id: doi:10.1021/jacs.5c22349
   authors:
-    - Christian E. Stieger<sup>✉</sup>
+    - Christian E. Stieger<sup>&#42;</sup>
     - Charlotte Völkel
     - Mathias B. Bertelsen
     - Michael Lisurek
@@ -64,4 +64,21 @@
     - Christiane Groneberg
     - Mathias Christmann
     - Han Sun
-    - Christian P. R. Hackenberger
+    - Christian P. R. Hackenberger<sup>&#42;</sup>
+- id: doi:10.1021/acscentsci.5c02277
+  authors:
+    - Christian E. Stieger<sup>&#42;</sup>
+    - Xinru Chen
+    - Christina C. Kuismi
+    - Dustin Dovala
+    - Daniel Fuller
+    - Andreas O. Frank
+    - Mikias Woldegiorgis
+    - Megan Bruce-Smythe
+    - Fabian Wu
+    - Nicolas Pizzato
+    - Jeffrey McKenna
+    - Cory Johannessen
+    - Barna D. Fodor
+    - Markus Schirle
+    - Daniel K. Nomura<sup>&#42;</sup>

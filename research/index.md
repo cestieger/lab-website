@@ -7,7 +7,13 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-book-open" %}Publications
 
-<sup>†</sup> equal contribution · <sup>✉</sup> corresponding author
+Publications are listed newest first, with Christian Stieger's name shown in **bold**.
+
+Symbols next to author names:
+
+- <sup>†</sup> These authors contributed equally to the work.
+- <sup>&#42;</sup> Co-corresponding author.
+- … Authors omitted from long author lists. Hover over the list to see everyone.
 
 {% include section.html %}
 
