@@ -18,3 +18,50 @@
   remove: true
 - id: doi:10.1101/2024.07.29.605581
   remove: true
+- id: doi:10.26434/CHEMRXIV-2023-JG9VN
+  remove: true
+- id: wosuid:WOS:001314146400707
+  remove: true
+
+# Fixed title (publisher metadata contains stray formatting)
+- id: doi:10.1039/D3SC05006H
+  title: Rapid building block-economic synthesis of long, multi-O-GalNAcylated MUC5AC tandem repeat peptides
+
+# Author lists with equal-contribution (†) and corresponding-author (✉) markers,
+# checked against the published articles.
+- id: doi:10.1002/ANIE.202508656
+  authors:
+    - Christian E. Stieger<sup>†</sup>
+    - Alastair J. McMillan<sup>†</sup>
+    - Mark A. R. de Geus<sup>†</sup>
+    - Jan Vincent V. Arafiles
+    - Luise Franz
+    - Christian P. R. Hackenberger
+- id: doi:10.1038/s41557-025-01915-8
+  authors:
+    - Arif Celik
+    - Felix Schöpf<sup>†</sup>
+    - Christian E. Stieger<sup>†</sup>
+    - Sarah Lampe<sup>†</sup>
+    - Björn Hanf
+    - Jeremy A. M. Morgan
+    - Max Ruwolt
+    - Fan Liu
+    - Christian P. R. Hackenberger
+    - Daniel Roderer
+    - Dorothea Fiedler
+- id: doi:10.1021/jacs.5c22349
+  authors:
+    - Christian E. Stieger<sup>✉</sup>
+    - Charlotte Völkel
+    - Mathias B. Bertelsen
+    - Michael Lisurek
+    - Jan Vincent V. Arafiles
+    - Jonathan Franke
+    - Leander Crocker
+    - Karl Schuppe
+    - Yunjae Lim
+    - Christiane Groneberg
+    - Mathias Christmann
+    - Han Sun
+    - Christian P. R. Hackenberger

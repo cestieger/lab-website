@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-book-open" %}Publications
 
-Publications are pulled automatically from ORCID.
+<sup>†</sup> equal contribution · <sup>✉</sup> corresponding author
 
 {% include section.html %}
 

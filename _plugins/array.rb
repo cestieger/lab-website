@@ -19,6 +19,22 @@ module Jekyll
         return [left, "...", right].flatten()
       end
     end
+    # like array_carve, but always keep entries containing any of the given names
+    def array_carve_keep(array, length = 3, names = [])
+      names = Array(names)
+      keep = array.each_index.select do |i|
+        i < length || i >= array.length - length ||
+          names.any? { |n| array[i].to_s.include?(n) }
+      end
+      result = []
+      prev = -1
+      keep.each do |i|
+        result << "..." if i > prev + 1
+        result << array[i]
+        prev = i
+      end
+      result
+    end
   end
 end
 

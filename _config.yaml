@@ -10,6 +10,11 @@ proofer: false
 links:
   orcid: 0000-0001-5829-2307
 
+# author names to highlight in publication lists
+highlight-authors:
+  - Christian E. Stieger
+  - Christian Stieger
+
 ### jekyll settings
 
 # front matter defaults

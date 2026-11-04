@@ -47,12 +47,17 @@
         {% endif %}
         tabindex="0"
       >
-        {{
-          citation.authors
+        {%- assign carved = citation.authors
           | join: ","
           | split: ","
-          | array_carve: 5
-          | join: ", "
+          | array_carve_keep: 5, site.highlight-authors -%}
+        {%- capture authors_html -%}{{ carved | join: ", " }}{%- endcapture -%}
+        {%- for name in site.highlight-authors -%}
+          {%- capture bold -%}<strong>{{ name }}</strong>{%- endcapture -%}
+          {%- assign authors_html = authors_html | replace: name, bold -%}
+        {%- endfor -%}
+        {{
+          authors_html
           | markdownify
           | remove: "<p>" | remove: "</p>"
           | default: "[no author info]"
