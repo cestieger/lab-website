@@ -1,5 +1,20 @@
-# Extra publications or details not on ORCID go here, e.g.
+# Publications are pulled from ORCID automatically.
+# Add extra papers or details here, e.g.
 # - id: doi:10.xxxx/xxxxx
 #   image: images/toc.png
 #   description: Short summary
-[]
+#
+# Entries below hide ORCID duplicates (German editions, covers, superseded preprints).
+
+- id: doi:10.1002/ange.202100683
+  remove: true
+- id: doi:10.1002/ange.202205348
+  remove: true
+- id: doi:10.1002/ange.202212509
+  remove: true
+- id: doi:10.1002/anie.202212509
+  remove: true
+- id: doi:10.26434/chemrxiv-2025-rr0r6
+  remove: true
+- id: doi:10.1101/2024.07.29.605581
+  remove: true
