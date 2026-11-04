@@ -101,3 +101,22 @@ $wrap: 800px;
     height: $thumb-size;
   }
 }
+
+// several citations shown together in one box (e.g. selected publications)
+.citation-group {
+  margin: 20px 0;
+  border-radius: var(--rounded);
+  background: var(--background);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+
+  .citation {
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .citation-container + .citation-container .citation {
+    border-top: 1px solid var(--light-gray);
+  }
+}

@@ -12,9 +12,9 @@ nav:
 ## Selected Publications
 
 {% assign selected = site.data.citations | data_filter: "highlight == true" | sort: "date" | reverse %}
-{% for d in selected %}
-  {% include citation.html lookup=d.id style="rich" %}
-{% endfor %}
+<div class="citation-group">
+{% for d in selected %}{% include citation.html lookup=d.id style="rich" %}{% endfor %}
+</div>
 
 {% include section.html %}
 
