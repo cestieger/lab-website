@@ -128,44 +128,6 @@
   orcid: 0000-0001-5829-2307
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.26434/chemrxiv-2025-rr0r6
-  title: Modular Vinyl-Phosphonamidates for Cysteine Directed Protein Targeting
-  authors:
-  - Christian Stieger
-  - "Charlotte V\xF6lkel"
-  - Mathias Bertelsen
-  - Michael Lisurek
-  - Leander Crocker
-  - Yun Jae Lim
-  - Christiane Groneberg
-  - Mathias Christmann
-  - Han Sun
-  - Christian Hackenberger
-  publisher: American Chemical Society (ACS)
-  date: '2025-05-22'
-  link: https://doi.org/hcq7gd
-  orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2024.07.29.605581
-  title: Nucleoside diphosphate kinase A (NME1) catalyzes its own oligophosphorylation
-  authors:
-  - Arif Celik
-  - "Felix Sch\xF6pf"
-  - Christian E. Stieger
-  - Jeremy A. M. Morgan
-  - Sarah Lampe
-  - Max Ruwolt
-  - Fan Liu
-  - Christian P. R. Hackenberger
-  - Daniel Roderer
-  - Dorothea Fiedler
-  publisher: openRxiv
-  date: '2024-07-29'
-  link: https://doi.org/hcq7gg
-  orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1039/D2SC06986E
   title: Real-time monitoring of the sialic acid biosynthesis pathway by NMR
   authors:
@@ -181,29 +143,6 @@
   publisher: Chemical Science
   date: '2023-01-01'
   link: https://doi.org/hcq7gh
-  orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/anie.202212509
-  title: "Back Cover: DFT\u2010Guided Discovery of Ethynyl\u2010Triazolyl\u2010Phosphinates\
-    \ as Modular Electrophiles for Chemoselective Cysteine Bioconjugation and Profiling\
-    \ (Angew. Chem. Int. Ed. 41/2022)"
-  authors:
-  - Christian E. Stieger
-  - Yerin Park
-  - Mark A. R. de Geus
-  - Dongju Kim
-  - Christiane Huhn
-  - J. Sophia Slenczka
-  - Philipp Ochtrop
-  - "Judith M. M\xFCchler"
-  - "Roderich D. S\xFCssmuth"
-  - Johannes Broichhagen
-  - "Mu\u2010Hyun Baik"
-  - Christian P. R. Hackenberger
-  publisher: Angewandte Chemie International Edition
-  date: '2022-09-05'
-  link: https://doi.org/hcq7gj
   orcid: 0000-0001-5829-2307
   plugin: orcid.py
   file: orcid.yaml
@@ -226,66 +165,6 @@
   publisher: Angewandte Chemie International Edition
   date: '2022-08-22'
   link: https://doi.org/hcq7gk
-  orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/ange.202205348
-  title: "DFT\u2010basierte Entdeckung von Ethynyl\u2010Triazolyl\u2010Phosphinaten\
-    \ als modulare Elektrophile f\xFCr die chemoselektive Cystein\u2010Biokonjugation\
-    \ und Profilierung"
-  authors:
-  - Christian E. Stieger
-  - Yerin Park
-  - Mark A. R. de Geus
-  - Dongju Kim
-  - Christiane Huhn
-  - J. Sophia Slenczka
-  - Philipp Ochtrop
-  - "Judith M. M\xFCchler"
-  - "Roderich D. S\xFCssmuth"
-  - Johannes Broichhagen
-  - "Mu\u2010Hyun Baik"
-  - Christian P. R. Hackenberger
-  publisher: Angewandte Chemie
-  date: '2022-08-25'
-  link: https://doi.org/hcq7gm
-  orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/ange.202212509
-  title: "R\xFCcktitelbild: DFT\u2010basierte Entdeckung von Ethynyl\u2010Triazolyl\u2010\
-    Phosphinaten als modulare Elektrophile f\xFCr die chemoselektive Cystein\u2010\
-    Biokonjugation und Profilierung (Angew. Chem. 41/2022)"
-  authors:
-  - Christian E. Stieger
-  - Yerin Park
-  - Mark A. R. de Geus
-  - Dongju Kim
-  - Christiane Huhn
-  - J. Sophia Slenczka
-  - Philipp Ochtrop
-  - "Judith M. M\xFCchler"
-  - "Roderich D. S\xFCssmuth"
-  - Johannes Broichhagen
-  - "Mu\u2010Hyun Baik"
-  - Christian P. R. Hackenberger
-  publisher: Angewandte Chemie
-  date: '2022-09-05'
-  link: https://doi.org/hcq7gn
-  orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/ange.202100683
-  title: "Diethinylphosphinate f\xFCr die Cystein\u2010selektive Proteinmarkierung\
-    \ und Disulfid\u2010Verbr\xFCckung"
-  authors:
-  - Christian E. Stieger
-  - Luise Franz
-  - "Frieder K\xF6rlin"
-  - Christian P. R. Hackenberger
-  publisher: Angewandte Chemie
-  date: '2021-06-03'
-  link: https://doi.org/gkdjgm
   orcid: 0000-0001-5829-2307
   plugin: orcid.py
   file: orcid.yaml
