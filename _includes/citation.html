@@ -78,6 +78,17 @@
         </span>
       </div>
 
+      {%- assign all_authors = citation.authors | join: ", " -%}
+      {%- assign has_equal = all_authors contains "<sup>†</sup>" -%}
+      {%- assign has_corr = all_authors contains "<sup>&#42;</sup>" -%}
+      {% if has_equal or has_corr %}
+        <div class="citation-details citation-notes">
+          {% if has_equal %}<span><sup>†</sup> These authors contributed equally.</span>{% endif %}
+          {% if has_equal and has_corr %}&nbsp;·&nbsp;{% endif %}
+          {% if has_corr %}<span><sup>&#42;</sup> Co-corresponding authors.</span>{% endif %}
+        </div>
+      {% endif %}
+
       {% if include.style == "rich" %}
         {% if citation.description %}
           <div class="citation-description">
