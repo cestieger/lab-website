@@ -93,5 +93,20 @@
     height: 180px;
   }
 }
+.citation-group {
+  margin: 20px 0;
+  border-radius: var(--rounded);
+  background: var(--background);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.citation-group .citation {
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.citation-group .citation-container + .citation-container .citation {
+  border-top: 1px solid var(--light-gray);
+}
 
 /*# sourceMappingURL=citation.css.map */
