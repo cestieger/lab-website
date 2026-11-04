@@ -1,32 +1,32 @@
-doi:10.1021/acscentsci.5c02277	PMC13397437	toc	download failed	oc5c02277_0010.jpg
-doi:10.1021/acscentsci.5c02277	PMC13397437	fig1	download failed	oc5c02277_0001.jpg
-doi:10.1021/jacs.5c22349	PMC12951430	toc	download failed	ja5c22349_0008.jpg
-doi:10.1021/jacs.5c22349	PMC12951430	fig1	download failed	ja5c22349_0001.jpg
+doi:10.1021/acscentsci.5c02277	PMC13397437	toc	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 200:text/html:www.ncbi.nlm.nih.gov	oc5c02277_0010.jpg
+doi:10.1021/acscentsci.5c02277	PMC13397437	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	oc5c02277_0001.jpg
+doi:10.1021/jacs.5c22349	PMC12951430	toc	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	ja5c22349_0008.jpg
+doi:10.1021/jacs.5c22349	PMC12951430	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	ja5c22349_0001.jpg
 doi:10.64898/2026.01.13.697720	no PMC id
 doi:10.1016/J.BMCL.2026.130743	no PMC id
-doi:10.1002/ANIE.202521902	PMC12970513	toc	download failed	ANIE-65-e21902-g005.jpg
-doi:10.1002/ANIE.202521902	PMC12970513	fig1	download failed	ANIE-65-e21902-g004.jpg
-doi:10.1038/s41557-025-01931-8	PMC12669049	fig1	download failed	41557_2025_1931_Fig1_HTML.jpg
-doi:10.1038/s41557-025-01915-8	PMC12580328	fig1	download failed	https://doi.org/10.2210/pdb7ZLW/pdb
-doi:10.1021/jacs.5c02981	PMC12147148	toc	download failed	ja5c02981_0009.jpg
-doi:10.1021/jacs.5c02981	PMC12147148	fig1	download failed	ja5c02981_0001.jpg
+doi:10.1002/ANIE.202521902	PMC12970513	toc	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	ANIE-65-e21902-g005.jpg
+doi:10.1002/ANIE.202521902	PMC12970513	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	ANIE-65-e21902-g004.jpg
+doi:10.1038/s41557-025-01931-8	PMC12669049	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 200:text/html:www.ncbi.nlm.nih.gov	41557_2025_1931_Fig1_HTML.jpg
+doi:10.1038/s41557-025-01915-8	PMC12580328	fig1	failed 403:text/html:europepmc.org 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	https://doi.org/10.2210/pdb7ZLW/pdb
+doi:10.1021/jacs.5c02981	PMC12147148	toc	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	ja5c02981_0009.jpg
+doi:10.1021/jacs.5c02981	PMC12147148	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	ja5c02981_0001.jpg
 doi:10.1002/ANIE.202508518	PMC13157644	no full text (500)
-doi:10.1002/ANIE.202508656	PMC12435405	toc	download failed	ANIE-64-e202508656-g001.jpg
-doi:10.1002/ANIE.202508656	PMC12435405	fig1	download failed	ANIE-64-e202508656-g003.jpg
+doi:10.1002/ANIE.202508656	PMC12435405	toc	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	ANIE-64-e202508656-g001.jpg
+doi:10.1002/ANIE.202508656	PMC12435405	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	ANIE-64-e202508656-g003.jpg
 doi:10.26434/CHEMRXIV-2024-T9N2B	no PMC id
-doi:10.1039/D3SC05006H	PMC10806717	toc	download failed	d3sc05006h-ga.jpg
-doi:10.1039/D3SC05006H	PMC10806717	fig1	download failed	d3sc05006h-f1.jpg
-doi:10.1039/D2SC06986E	PMC10055903	toc	download failed	d2sc06986e-ga.jpg
-doi:10.1039/D2SC06986E	PMC10055903	fig1	download failed	d2sc06986e-s1.jpg
-doi:10.1002/ANIE.202205348	PMC9804898	toc	download failed	ANIE-61-0-g008.jpg
-doi:10.1002/ANIE.202205348	PMC9804898	fig1	download failed	ANIE-61-0-g003.jpg
-doi:10.1002/ANIE.202100683	PMC8362001	toc	download failed	ANIE-60-15359-g003.jpg
-doi:10.1002/ANIE.202100683	PMC8362001	fig1	download failed	ANIE-60-15359-g004.jpg
-doi:10.1021/ACS.JPROTEOME.0C01000	PMC8155564	fig1	download failed	pr0c01000_0002.jpg
+doi:10.1039/D3SC05006H	PMC10806717	toc	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	d3sc05006h-ga.jpg
+doi:10.1039/D3SC05006H	PMC10806717	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	d3sc05006h-f1.jpg
+doi:10.1039/D2SC06986E	PMC10055903	toc	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	d2sc06986e-ga.jpg
+doi:10.1039/D2SC06986E	PMC10055903	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	d2sc06986e-s1.jpg
+doi:10.1002/ANIE.202205348	PMC9804898	toc	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 200:text/html:www.ncbi.nlm.nih.gov	ANIE-61-0-g008.jpg
+doi:10.1002/ANIE.202205348	PMC9804898	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 200:text/html:www.ncbi.nlm.nih.gov	ANIE-61-0-g003.jpg
+doi:10.1002/ANIE.202100683	PMC8362001	toc	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	ANIE-60-15359-g003.jpg
+doi:10.1002/ANIE.202100683	PMC8362001	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	ANIE-60-15359-g004.jpg
+doi:10.1021/ACS.JPROTEOME.0C01000	PMC8155564	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	pr0c01000_0002.jpg
 doi:10.1021/JACS.0C03426	no PMC id
 doi:10.1021/acs.orglett.9b03982	no PMC id
-doi:10.1038/s41594-019-0270-6	PMC6828549	fig1	download failed	nihms-1532200-f0001.jpg
-doi:10.1021/acs.analchem.9b00658	PMC6625963	fig1	download failed	EMS83654-f001.jpg
+doi:10.1038/s41594-019-0270-6	PMC6828549	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	nihms-1532200-f0001.jpg
+doi:10.1021/acs.analchem.9b00658	PMC6625963	fig1	failed 403:text/html:europepmc.org 200:binary/octet-stream:pmc-oa-opendata.s3.amazonaws.com 404:application/xml:pmc-oa-opendata.s3.amazonaws.com 404:text/html:www.ncbi.nlm.nih.gov	EMS83654-f001.jpg
 doi:10.1021/acs.jproteome.8b00947	no PMC id
 doi:10.1002/CHEM.201702904	no PMC id
 doi:10.1002/chem.201703497	no PMC id

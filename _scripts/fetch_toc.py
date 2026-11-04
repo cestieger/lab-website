@@ -27,7 +27,7 @@ def download(pmcid, href, fn_base):
             r = S.get(u, timeout=30, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"})
             ct = r.headers.get("content-type", "")
             tried.append(f"{r.status_code}:{ct.split(';')[0]}:{u.split('/')[2]}")
-            if r.status_code == 200 and ct.startswith("image"):
+            if r.status_code == 200 and (ct.startswith("image") or r.content[:3] in (b"\xff\xd8\xff", b"\x89PN", b"GIF")):
                 ext = href.rsplit(".", 1)[-1] if "." in href else "jpg"
                 fn = f"{fn_base}.{ext}"
                 open(fn, "wb").write(r.content)
