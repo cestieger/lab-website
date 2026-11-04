@@ -65,6 +65,39 @@
   orcid: 0000-0001-5829-2307
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1016/J.BMCL.2026.130743
+  title: An optimized RNF126-targeting covalent handle for molecular glue degraders
+  authors:
+  - Aman Modi
+  - Ethan S. Toriki
+  - Christian E. Stieger
+  - Emily A. Lau
+  - Claire Song
+  - Alyssa Chew
+  - Amy Tsao
+  - Kaila Nishikawa
+  - Jeffrey McKenna
+  - Daniel K. Nomura
+  publisher: Bioorganic &amp; Medicinal Chemistry Letters
+  date: '2026-11-01'
+  link: https://doi.org/hcq7h8
+  orcid: 0000-0001-5829-2307
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ANIE.202521902
+  title: Unsaturated Phosphorus Electrophiles to Probe Protein Tyrosine Phosphatases
+  authors:
+  - Eleftheria Poulou
+  - Max Ruwolt
+  - Christian E. Stieger
+  - "Kristin Kemnitz\u2010Hassanin"
+  - Christian P. R. Hackenberger
+  publisher: Angewandte Chemie International Edition
+  date: '2026-02-03'
+  link: https://doi.org/hcq7h9
+  orcid: 0000-0001-5829-2307
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41557-025-01931-8
   title: Energy-transfer photoproximity labelling in live cells using an organic cofactor
   authors:
@@ -128,6 +161,107 @@
   orcid: 0000-0001-5829-2307
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1002/ANIE.202508518
+  title: Sulfinyl Aziridines as Stereoselective Covalent Destabilizing Degraders of
+    the Oncogenic Transcription Factor MYC
+  authors:
+  - Hannah T. Rosen
+  - Kelvin Li
+  - Christian E. Stieger
+  - Erin L. Li
+  - Brynne Currier
+  - Scott M. Brittain
+  - Francisco J. Garcia
+  - Diana C. Beard
+  - Michael D. Jones
+  - "Sandra Haenni\u2010Holzinger"
+  - Dustin Dovala
+  - Jeffrey M. McKenna
+  - Markus Schirle
+  - Thomas J. Maimone
+  - Daniel K. Nomura
+  publisher: Angewandte Chemie International Edition
+  date: '2025-09-25'
+  link: https://doi.org/hcq7jb
+  orcid: 0000-0001-5829-2307
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ANIE.202508656
+  title: "Unsaturated Phosphine Oxides for Modular Antibody Rebridging and Single\
+    \ Reagent Peptide\u2010Cyclization\u2010Bioconjugation"
+  authors:
+  - Christian E. Stieger
+  - Alastair J. McMillan
+  - Mark A. R. de Geus
+  - Jan Vincent V. Arafiles
+  - Luise Franz
+  - Christian P. R. Hackenberger
+  publisher: Angewandte Chemie International Edition
+  date: '2025-08-08'
+  link: https://doi.org/hcq7jc
+  orcid: 0000-0001-5829-2307
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.26434/CHEMRXIV-2024-T9N2B
+  title: Chemoselective placement of unsaturated phosphorus electrophiles into ubiquitin
+    for proximity-induced protein targeting
+  authors:
+  - Christian Stieger
+  - Sergej Schwagerus
+  - Gillian Dornan
+  - Lee Armstrong
+  - Kristin Kemnitz-Hassanin
+  - Michal Nadler-Holly
+  - Heike Stephanowitz
+  - Fan Liu
+  - Volker Haucke
+  - Yogesh Kulathu
+  - Christian Hackenberger
+  publisher: American Chemical Society (ACS)
+  date: '2024-06-07'
+  link: https://doi.org/hcq7jd
+  orcid: 0000-0001-5829-2307
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:001314146400707
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001314146400707
+  orcid: 0000-0001-5829-2307
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/D3SC05006H
+  title: "Rapid building block-economic synthesis of long, multi-\n              \
+    \      <i>O</i>\n                    -GalNAcylated MUC5AC tandem repeat peptides"
+  authors:
+  - Arseniy Galashov
+  - Ekaterina Kazakova
+  - Christian E. Stieger
+  - Christian P. R. Hackenberger
+  - Oliver Seitz
+  publisher: Chemical Science
+  date: '2024-01-01'
+  link: https://doi.org/hcq7jf
+  orcid: 0000-0001-5829-2307
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.26434/CHEMRXIV-2023-JG9VN
+  title: Rapid building block-economic synthesis of long, multi-O-GalNAcylated MUC5AC
+    tandem repeat peptides
+  authors:
+  - Arseniy Galashov
+  - Ekaterina Kazakova
+  - Christian Stieger
+  - Christian Hackenberger
+  - Oliver Seitz
+  publisher: American Chemical Society (ACS)
+  date: '2023-09-18'
+  link: https://doi.org/hcq7jh
+  orcid: 0000-0001-5829-2307
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1039/D2SC06986E
   title: Real-time monitoring of the sialic acid biosynthesis pathway by NMR
   authors:
@@ -146,7 +280,7 @@
   orcid: 0000-0001-5829-2307
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1002/anie.202205348
+- id: doi:10.1002/ANIE.202205348
   title: "DFT\u2010Guided Discovery of Ethynyl\u2010Triazolyl\u2010Phosphinates as\
     \ Modular Electrophiles for Chemoselective Cysteine Bioconjugation and Profiling"
   authors:
@@ -168,7 +302,7 @@
   orcid: 0000-0001-5829-2307
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1002/anie.202100683
+- id: doi:10.1002/ANIE.202100683
   title: "Diethynyl Phosphinates for Cysteine\u2010Selective Protein Labeling and\
     \ Disulfide Rebridging"
   authors:
@@ -179,6 +313,39 @@
   publisher: Angewandte Chemie International Edition
   date: '2021-06-03'
   link: https://doi.org/gkdjgh
+  orcid: 0000-0001-5829-2307
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/ACS.JPROTEOME.0C01000
+  title: 'MS Annika: A New Cross-Linking Search Engine'
+  authors:
+  - Georg J. Pirklbauer
+  - Christian E. Stieger
+  - Manuel Matzinger
+  - Stephan Winkler
+  - Karl Mechtler
+  - Viktoria Dorfer
+  publisher: Journal of Proteome Research
+  date: '2021-04-14'
+  link: https://doi.org/hcq7jj
+  orcid: 0000-0001-5829-2307
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/JACS.0C03426
+  title: "Chemically Induced Vinylphosphonothiolate Electrophiles for Thiol\u2013\
+    Thiol Bioconjugations"
+  authors:
+  - Alice L. Baumann
+  - Sergej Schwagerus
+  - Kevin Broi
+  - Kristin Kemnitz-Hassanin
+  - Christian E. Stieger
+  - Nils Trieloff
+  - Peter Schmieder
+  - Christian P. R. Hackenberger
+  publisher: Journal of the American Chemical Society
+  date: '2020-04-27'
+  link: https://doi.org/g7k36h
   orcid: 0000-0001-5829-2307
   plugin: orcid.py
   file: orcid.yaml
@@ -317,6 +484,19 @@
   orcid: 0000-0001-5829-2307
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1002/CHEM.201702904
+  title: "Determination of the Absolute Configuration of (\u2212)\u2010Hydroxynitrilaphos\
+    \ and Related Biosynthetic Questions"
+  authors:
+  - Katharina Pallitsch
+  - Barbara Happl
+  - Christian Stieger
+  publisher: "Chemistry \u2013 A European Journal"
+  date: '2017-09-25'
+  link: https://doi.org/hkd3
+  orcid: 0000-0001-5829-2307
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/chem.201703497
   title: "Determination of the Absolute Configuration of (\u2212)\u2010Hydroxynitrilaphos\
     \ and Related Biosynthetic Questions"
@@ -327,19 +507,6 @@
   publisher: "Chemistry \u2013 A European Journal"
   date: '2017-09-12'
   link: https://doi.org/hcq7gv
-  orcid: 0000-0001-5829-2307
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/chem.201702904
-  title: "Determination of the Absolute Configuration of (\u2212)\u2010Hydroxynitrilaphos\
-    \ and Related Biosynthetic Questions"
-  authors:
-  - Katharina Pallitsch
-  - Barbara Happl
-  - Christian Stieger
-  publisher: "Chemistry \u2013 A European Journal"
-  date: '2017-09-25'
-  link: https://doi.org/hkd3
   orcid: 0000-0001-5829-2307
   plugin: orcid.py
   file: orcid.yaml
