@@ -16,20 +16,25 @@ def slug(doi):
     return re.sub(r"[^a-z0-9]+", "-", doi.lower()).strip("-")
 
 def download(pmcid, href, fn_base):
-    href = re.sub(r"\.(jpg|gif|png|tif)$", "", href)
-    for host in ["https://europepmc.org/articles/{p}/bin/{h}.{e}",
-                 "https://pmc.ncbi.nlm.nih.gov/articles/{p}/bin/{h}.{e}"]:
-        for e in ["jpg", "gif", "png"]:
-            u = host.format(p=pmcid, h=href, e=e)
-            try:
-                r = S.get(u, timeout=30)
-                if r.status_code == 200 and r.headers.get("content-type", "").startswith("image"):
-                    fn = f"{fn_base}.{e}"
-                    open(fn, "wb").write(r.content)
-                    return fn, u
-            except Exception:
-                pass
-    return None, None
+    tried = []
+    hosts = ["https://europepmc.org/articles/{p}/bin/{h}",
+             "https://pmc-oa-opendata.s3.amazonaws.com/{p}.1/{h}",
+             "https://pmc-oa-opendata.s3.amazonaws.com/{p}.2/{h}",
+             "https://www.ncbi.nlm.nih.gov/pmc/articles/{p}/bin/{h}"]
+    for host in hosts:
+        u = host.format(p=pmcid, h=href)
+        try:
+            r = S.get(u, timeout=30, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"})
+            ct = r.headers.get("content-type", "")
+            tried.append(f"{r.status_code}:{ct.split(';')[0]}:{u.split('/')[2]}")
+            if r.status_code == 200 and ct.startswith("image"):
+                ext = href.rsplit(".", 1)[-1] if "." in href else "jpg"
+                fn = f"{fn_base}.{ext}"
+                open(fn, "wb").write(r.content)
+                return fn, u
+        except Exception as e:
+            tried.append(f"err:{u.split('/')[2]}")
+    return None, " ".join(tried)
 
 for cit in yaml.safe_load(open("_data/citations.yaml")):
     _id = cit.get("id", "")
@@ -62,7 +67,7 @@ for cit in yaml.safe_load(open("_data/citations.yaml")):
         for kind, h in hrefs:
             if kind in done: continue
             fn, u = download(pmcid, h, f"{out}/{slug(doi)}-{kind}")
-            report.append(f"{_id}\t{pmcid}\t{kind}\t{'saved ' + fn if fn else 'download failed'}\t{h}")
+            report.append(f"{_id}\t{pmcid}\t{kind}\t{'saved ' + fn if fn else 'failed ' + u}\t{h}")
             if fn: done.add(kind)
     except Exception as e:
         report.append(f"{_id}\terror {e}")
