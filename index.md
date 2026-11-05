@@ -1,7 +1,7 @@
 ---
 ---
 
-# Stieger Lab
+# Stieger Lab - Chemical Biology and Induced Proximity
 
 [LAB MISSION: 1-3 sentences describing what the lab does]
 
