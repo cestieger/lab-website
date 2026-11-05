@@ -3,7 +3,10 @@
 
 <div class="lab-hero">
   <img src="{{ 'images/logo.png' | relative_url }}" alt="Stieger Lab logo">
-  <h1 id="stieger-lab">Stieger Lab - Chemical Biology and Induced Proximity</h1>
+  <div class="lab-hero-text">
+    <h1 id="stieger-lab">Stieger Lab</h1>
+    <p class="lab-hero-sub">Chemical Biology and Induced Proximity</p>
+  </div>
 </div>
 
 [LAB MISSION: 1-3 sentences describing what the lab does]

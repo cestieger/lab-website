@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 20px 40px;
   margin: 20px 0 10px;
 }
 
@@ -16,15 +16,22 @@
   height: auto;
 }
 
-.lab-hero h1 {
-  margin: 0;
-  flex: 1 1 320px;
-  max-width: 560px;
-  text-align: left;
+.lab-hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
 }
 
-@media (max-width: 600px) {
-  .lab-hero h1 {
-    text-align: center;
-  }
+.lab-hero-text h1 {
+  margin: 0;
+}
+
+.lab-hero-sub {
+  margin: 0;
+  font-family: var(--heading);
+  font-size: var(--large);
+  letter-spacing: 0.04em;
+  opacity: 0.75;
 }
