@@ -4,11 +4,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
-  box-shadow: var(--shadow);
-  position: sticky !important;
-  top: 0;
-  z-index: 10 !important;
+  padding: 16px 24px;
 }
 
 header a {
@@ -122,7 +118,6 @@ header[data-big] {
   align-items: center;
   flex-direction: column;
   padding: 100px 20px;
-  top: unset;
 }
 header[data-big] .home {
   flex-direction: column;
@@ -142,6 +137,33 @@ header[data-big] .title {
 }
 header[data-big] .subtitle {
   font-size: var(--large);
+}
+
+.nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  padding: 6px 20px;
+  background: var(--background);
+  box-shadow: var(--shadow);
+}
+
+.nav-bar nav {
+  gap: 4px 24px;
+}
+
+.nav-bar nav > a {
+  padding: 8px 4px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+}
+
+.nav-bar nav > a:hover {
+  color: var(--primary);
 }
 
 /*# sourceMappingURL=header.css.map */
