@@ -1,0 +1,28 @@
+.lab-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0 10px;
+}
+
+.lab-hero img {
+  width: 160px;
+  height: auto;
+}
+
+.lab-hero h1 {
+  margin: 0;
+  flex: 1 1 320px;
+  max-width: 560px;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .lab-hero h1 {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=lab-hero.css.map */
