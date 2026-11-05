@@ -5,7 +5,7 @@ $logo-big: 80px;
 $logo: 40px;
 $big-padding: 100px;
 $collapse: 700px;
-$sticky: true;
+$sticky: false;
 
 header {
   display: flex;
@@ -13,8 +13,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
-  box-shadow: var(--shadow);
+  padding: 16px 24px;
 
   @if $sticky {
     position: sticky !important;
@@ -165,4 +164,32 @@ header[data-big] {
   .subtitle {
     font-size: var(--large);
   }
+}
+
+// menu bar below the header banner
+.nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  padding: 6px 20px;
+  background: var(--background);
+  box-shadow: var(--shadow);
+}
+
+.nav-bar nav {
+  gap: 4px 24px;
+}
+
+.nav-bar nav > a {
+  padding: 8px 4px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+}
+
+.nav-bar nav > a:hover {
+  color: var(--primary);
 }
