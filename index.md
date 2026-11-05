@@ -9,7 +9,11 @@
 
 {% capture text %}
 
-[RESEARCH SUMMARY: a short paragraph on the lab's research themes]
+The Stieger Lab works at the interface of synthetic chemistry, chemical biology and drug discovery. Many diseases are driven by transcription factors, specialized proteins that control which genes are switched on or off. Because most transcription factors lack the binding pockets that conventional drugs rely on, they have remained notoriously difficult to target.
+
+To address this challenge, we combine new covalent chemistries, high-throughput discovery of peptide and peptidomimetic ligands, and genome-wide profiling of chromatin states and gene expression. These tools enable us to develop bifunctional chemical inducers of proximity that recruit chromatin-regulating enzymes to disease-relevant transcription factors, reprogramming the transcriptional programs they control.
+
+Our long-term goal is to develop new therapeutic strategies that exploit the transcriptional dependencies of cancer cells, and to better understand how chromatin regulation shapes cancer-associated gene expression.
 
 {%
   include button.html
