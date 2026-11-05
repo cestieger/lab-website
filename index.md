@@ -1,7 +1,10 @@
 ---
 ---
 
-# Stieger Lab - Chemical Biology and Induced Proximity
+<div class="lab-hero">
+  <img src="{{ 'images/logo.png' | relative_url }}" alt="Stieger Lab logo">
+  <h1 id="stieger-lab">Stieger Lab - Chemical Biology and Induced Proximity</h1>
+</div>
 
 [LAB MISSION: 1-3 sentences describing what the lab does]
 
