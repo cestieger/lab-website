@@ -2,7 +2,7 @@
 ---
 
 $logo-big: 80px;
-$logo: 40px;
+$logo: 34px;
 $big-padding: 100px;
 $collapse: 700px;
 $sticky: false;
@@ -13,7 +13,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 16px 24px;
+  padding: 13px 24px;
 
   @if $sticky {
     position: sticky !important;
@@ -167,10 +167,13 @@ header[data-big] {
 }
 
 // menu bar below the header banner
-.nav-bar {
+.site-top {
   position: sticky;
   top: 0;
   z-index: 10;
+}
+
+.nav-bar {
   display: flex;
   justify-content: center;
   padding: 6px 20px;
