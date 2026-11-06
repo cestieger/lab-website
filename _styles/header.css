@@ -4,7 +4,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 16px 24px;
+  padding: 13px 24px;
 }
 
 header a {
@@ -23,7 +23,7 @@ header a {
 }
 
 .logo {
-  height: 40px;
+  height: 34px;
 }
 
 .logo > * {
@@ -139,10 +139,13 @@ header[data-big] .subtitle {
   font-size: var(--large);
 }
 
-.nav-bar {
+.site-top {
   position: sticky;
   top: 0;
   z-index: 10;
+}
+
+.nav-bar {
   display: flex;
   justify-content: center;
   padding: 6px 20px;
