@@ -1,0 +1,72 @@
+header bg rgb(7, 33, 64) h 82
+A "TUM
+
+						
+						Technical 
+						Unive" x24 y0 w148 h82 color rgb(255, 255, 255) font 16px 500 Roboto, -apple-system, blinkmacsystemfon
+svg "" x24 y20 w80 h42 color rgb(255, 255, 255) font 16px 500 Roboto, -apple-system, blinkmacsystemfon
+SPAN "TUM" x23 y41 w1 h1 color rgb(255, 255, 255) font 16px 500 Roboto, -apple-system, blinkmacsystemfon
+SPAN "Technical 
+						University 
+						of Mu" x116 y20 w56 h42 color rgb(255, 255, 255) font 12px 400 Roboto, -apple-system, blinkmacsystemfon
+svg "" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+SPAN "Close menu" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "News and Events
+				
+					
+						
+					
+" x0 y0 w0 h0 color rgb(255, 255, 255) font 24px 700 Roboto, -apple-system, blinkmacsystemfon
+SPAN "See overview" x0 y0 w0 h0 color rgb(255, 255, 255) font 16px 700 Roboto, -apple-system, blinkmacsystemfon
+svg "" x0 y0 w0 h0 color rgb(255, 255, 255) font 16px 700 Roboto, -apple-system, blinkmacsystemfon
+A "All News" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+SPAN "Events" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+svg "" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "Events
+				
+					
+						
+					
+					See " x0 y0 w0 h0 color rgb(255, 255, 255) font 24px 700 Roboto, -apple-system, blinkmacsystemfon
+SPAN "See overview" x0 y0 w0 h0 color rgb(255, 255, 255) font 16px 700 Roboto, -apple-system, blinkmacsystemfon
+svg "" x0 y0 w0 h0 color rgb(255, 255, 255) font 16px 700 Roboto, -apple-system, blinkmacsystemfon
+A "Event overview" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "Presidential Lunches" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "Open House Garching" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "Sustainability Day" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "Welcome@TUM" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "Dies Academicus" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "Advent Concerts" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+SPAN "Magazine" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+svg "" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "Magazine
+				
+					
+						
+					
+					Se" x0 y0 w0 h0 color rgb(255, 255, 255) font 24px 700 Roboto, -apple-system, blinkmacsystemfon
+SPAN "See overview" x0 y0 w0 h0 color rgb(255, 255, 255) font 16px 700 Roboto, -apple-system, blinkmacsystemfon
+svg "" x0 y0 w0 h0 color rgb(255, 255, 255) font 16px 700 Roboto, -apple-system, blinkmacsystemfon
+A "TUM Magazine, Issue 4/26" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "TUM Magazine Issue 3/26" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "TUM Magazine Issue 2/25" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "TUM Magazine Issue 1/25" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+SPAN "Podcasts" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+svg "" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "Podcasts
+				
+					
+						
+					
+					Se" x0 y0 w0 h0 color rgb(255, 255, 255) font 24px 700 Roboto, -apple-system, blinkmacsystemfon
+SPAN "See overview" x0 y0 w0 h0 color rgb(255, 255, 255) font 16px 700 Roboto, -apple-system, blinkmacsystemfon
+svg "" x0 y0 w0 h0 color rgb(255, 255, 255) font 16px 700 Roboto, -apple-system, blinkmacsystemfon
+A "We are TUM" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+SPAN "Series" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+svg "" x0 y0 w0 h0 color rgb(255, 255, 255) font 20px 400 Roboto, -apple-system, blinkmacsystemfon
+A "Series
+				
+					
+						
+					
+					See " x0 y0 w0 h0 color rgb(255, 255, 255) font 24px 700 Roboto, -apple-system, blinkmacsystemfon
