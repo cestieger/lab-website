@@ -1,0 +1,28 @@
+name: tmp-screenshot
+on:
+  push:
+    branches: [tmp-screenshot]
+jobs:
+  shot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm i playwright@1.47.2 && npx playwright install --with-deps chromium
+      - run: |
+          cat > s.js <<'JS'
+          const { chromium } = require('playwright');
+          (async () => { const b = await chromium.launch();
+            for (const [w,h,f] of [[1400,900,'tum-desktop.png'],[390,800,'tum-phone.png']]) {
+              const p = await b.newPage({viewport:{width:w,height:h}, locale:'en-US'});
+              await p.goto('https://www.tum.de/en/', {waitUntil:'networkidle', timeout:60000});
+              await p.waitForTimeout(2000);
+              for (const t of ['Accept all','Accept','Alle akzeptieren','OK']) { const btn = p.getByRole('button',{name:t}); if (await btn.count()) { await btn.first().click().catch(()=>{}); await p.waitForTimeout(800); break; } }
+              await p.screenshot({path:f});
+              if (w===1400) { const css = await p.evaluate(() => { const h = document.querySelector('header'); if (!h) return 'no header'; const cs = getComputedStyle(h); const out=[`header bg ${cs.backgroundColor} h ${h.getBoundingClientRect().height}`]; h.querySelectorAll('a,img,svg,span').forEach((e,i)=>{ if(i<40){ const c=getComputedStyle(e); const r=e.getBoundingClientRect(); out.push(`${e.tagName} "${(e.textContent||e.getAttribute('alt')||'').trim().slice(0,40)}" x${Math.round(r.x)} y${Math.round(r.y)} w${Math.round(r.width)} h${Math.round(r.height)} color ${c.color} font ${c.fontSize} ${c.fontWeight} ${c.fontFamily.slice(0,40)}`);} }); return out.join('\n'); }); require('fs').writeFileSync('tum-header.txt', css); }
+            }
+            await b.close(); })();
+          JS
+          node s.js
+      - uses: actions/upload-artifact@v4
+        with: { name: tum, path: "tum-*" }
