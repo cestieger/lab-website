@@ -196,3 +196,16 @@ header[data-big] {
 .nav-bar nav > a:hover {
   color: var(--primary);
 }
+
+// institution logo on the right of the header
+.header-partner {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-partner img {
+  height: 28px;
+  width: auto;
+  display: block;
+}

@@ -1,6 +1,6 @@
 # site properties and page defaults
 title: Stieger Lab
-subtitle: Technical University of Munich
+subtitle:
 description: "[LAB MISSION: 1-3 sentences describing what the lab does]"
 header: images/header-gradient-v3.jpg
 footer: images/background.jpg
