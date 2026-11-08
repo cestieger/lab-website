@@ -197,14 +197,11 @@ header[data-big] {
   color: var(--primary);
 }
 
-// institution logo on the right of the header, as TUM's own lockup
+// institution logo on the right of the header (TUM lockup as one image, so text and logo scale together)
 .header-partner {
   display: flex;
   align-items: center;
-  gap: 10px;
   margin-left: auto;
-  color: #ffffff;
-  text-decoration: none;
 }
 
 .header-partner img {
@@ -213,16 +210,6 @@ header[data-big] {
   display: block;
 }
 
-.header-partner-text {
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 11px;
-  line-height: 11.5px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #ffffff;
-}
-
 .header-partner:hover {
-  color: #ffffff;
   opacity: 0.85;
 }
