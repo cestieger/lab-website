@@ -172,13 +172,30 @@ header[data-big] .subtitle {
 .header-partner {
   display: flex;
   align-items: center;
+  gap: 10px;
   margin-left: auto;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .header-partner img {
-  height: 28px;
+  height: 34px;
   width: auto;
   display: block;
+}
+
+.header-partner-text {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 11.5px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.header-partner:hover {
+  color: #ffffff;
+  opacity: 0.85;
 }
 
 /*# sourceMappingURL=header.css.map */
