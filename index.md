@@ -2,7 +2,7 @@
 ---
 
 <div class="lab-hero">
-  <img src="{{ 'images/logo.png' | relative_url }}" alt="Stieger Lab logo">
+  <img src="{{ 'images/logo.svg' | relative_url }}" alt="Stieger Lab logo">
   <div class="lab-hero-text">
     <h1 id="stieger-lab">Stieger Lab</h1>
     <p class="lab-hero-sub">Chemical Biology and Induced Proximity</p>
