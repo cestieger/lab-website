@@ -169,4 +169,16 @@ header[data-big] .subtitle {
   color: var(--primary);
 }
 
+.header-partner {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-partner img {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
 /*# sourceMappingURL=header.css.map */
