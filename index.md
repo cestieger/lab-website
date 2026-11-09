@@ -57,7 +57,6 @@ Meet the people behind the lab.
 
 {%
   include feature.html
-  image="images/christian-stieger.jpg"
   link="team"
   title="Team"
   flip=true

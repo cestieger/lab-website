@@ -4,6 +4,7 @@
     data-flip
   {% endif %}
 >
+  {% if include.image %}
   <a
     {% if include.link %}
       href="{{ include.link | relative_url | uri_escape }}"
@@ -18,6 +19,7 @@
       {% include fallback.html %}
     >
   </a>
+  {% endif %}
   <div class="feature-text">
     {% if include.title %}
       <p class="feature-title">{{ include.title }}</p>
