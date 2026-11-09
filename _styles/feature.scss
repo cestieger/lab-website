@@ -87,3 +87,8 @@ $wrap: 800px;
     max-width: calc($wrap / 2);
   }
 }
+
+// tighter line spacing for the homepage box texts
+.feature-text p {
+  line-height: 1.6;
+}
