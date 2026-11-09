@@ -9,6 +9,8 @@ proofer: false
 # site social media and other links
 links:
   orcid: 0000-0001-5829-2307
+  google-scholar: cFVGKN0AAAAJ
+  linkedin: christian-e-stieger
 
 # author names to highlight in publication lists
 highlight-authors:
