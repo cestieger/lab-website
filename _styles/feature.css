@@ -82,5 +82,8 @@
     max-width: 400px;
   }
 }
+.feature-text p {
+  line-height: 1.6;
+}
 
 /*# sourceMappingURL=feature.css.map */
