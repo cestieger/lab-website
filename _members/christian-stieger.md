@@ -1,5 +1,6 @@
 ---
 name: Christian E. Stieger
+image: images/christian-stieger.jpg
 role: principal-investigator
 affiliation: Technical University of Munich
 aliases:

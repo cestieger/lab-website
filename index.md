@@ -57,7 +57,7 @@ Meet the people behind the lab.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/christian-stieger.jpg"
   link="team"
   title="Team"
   flip=true
@@ -81,7 +81,7 @@ We are recruiting a PhD student, Master's and Bachelor's thesis students, and a 
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/tum-building.jpg"
   link="join"
   title="Join us"
   text=text
