@@ -21,4 +21,47 @@ footer .icon {
   font-size: var(--xl);
 }
 
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.footer-logo img {
+  display: block;
+  width: auto;
+}
+
+.footer-logo-fci {
+  height: 56px;
+}
+
+.footer-logo-tum {
+  height: 34px;
+}
+
+.footer-logo:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+  .footer-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
 /*# sourceMappingURL=footer.css.map */
