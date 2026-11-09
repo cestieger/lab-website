@@ -29,7 +29,8 @@ $wrap: 800px;
 .feature-image {
   position: relative;
   box-sizing: border-box;
-  border: 3px solid #b5b5b5;
+  border: 3.6px solid #b5b5b5;
+  border-radius: 16px;
 }
 
 // optional second image that crossfades with the first
