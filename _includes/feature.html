@@ -18,6 +18,14 @@
       alt="{{ include.title | default: "feature image" | regex_strip }}"
       {% include fallback.html %}
     >
+    {% if include.image2 %}
+    <img
+      class="feature-image-alt"
+      src="{{ include.image2 | relative_url | uri_escape }}"
+      loading="lazy"
+      alt="{{ include.title | default: "feature image" | regex_strip }}"
+    >
+    {% endif %}
   </a>
   {% endif %}
   <div class="feature-text">

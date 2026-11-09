@@ -26,6 +26,30 @@ $wrap: 800px;
   object-fit: cover;
 }
 
+.feature-image {
+  position: relative;
+}
+
+// optional second image that crossfades with the first
+.feature-image .feature-image-alt {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  animation: feature-crossfade 12s ease-in-out infinite;
+}
+
+@keyframes feature-crossfade {
+  0%, 42% { opacity: 0; }
+  50%, 92% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .feature-image .feature-image-alt {
+    animation: none;
+  }
+}
+
 .feature-text {
   flex-grow: 1;
 }

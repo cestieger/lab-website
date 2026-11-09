@@ -35,6 +35,7 @@ Our long-term goal is to develop new therapeutic strategies that exploit the tra
 {%
   include feature.html
   image="images/research-figure-v3.png"
+  image2="images/research-structure.jpg"
   link="research"
   title="Research"
   text=text
