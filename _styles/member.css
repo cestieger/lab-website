@@ -1,5 +1,5 @@
 .member-portrait .portrait-name {
-  font-weight: var(--bold, 700);
+  font-weight: 700;
 }
 
 .member-bio p {

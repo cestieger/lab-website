@@ -5,7 +5,7 @@
   justify-content: center;
   gap: 15px;
   text-align: center;
-  margin: 10px 0 0;
+  margin: 0;
 }
 
 .lab-hero img {
@@ -36,7 +36,8 @@
 }
 
 section:has(.lab-hero) {
-  padding-bottom: 12px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 section:has(.lab-hero) + section {
