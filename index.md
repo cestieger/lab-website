@@ -4,7 +4,7 @@
 <div class="lab-hero">
   <img src="{{ 'images/logo.svg' | relative_url }}" alt="Stieger Lab logo">
   <div class="lab-hero-text">
-    <h1 id="stieger-lab">Stieger Lab</h1>
+    <h1>Stieger Lab</h1>
     <p class="lab-hero-sub">Chemical Biology and Induced Proximity</p>
   </div>
 </div>
@@ -62,6 +62,9 @@ We are recruiting a PhD student, Master's and Bachelor's thesis students, and a 
   text=text
 %}
 
+{% comment %}
+Team section hidden for now: delete this line and the {% endcomment %} line below to show it again.
+
 {% capture text %}
 
 Meet the people behind the lab.
@@ -84,3 +87,4 @@ Meet the people behind the lab.
   flip=true
   text=text
 %}
+{% endcomment %}

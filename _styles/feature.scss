@@ -92,3 +92,9 @@ $wrap: 800px;
 .feature-text p {
   line-height: 1.6;
 }
+
+// boxes without an image (e.g. Team): center the text
+.feature-text:only-child,
+.feature-text:only-child p {
+  text-align: center;
+}
