@@ -21,9 +21,9 @@ We currently have an open position for a doctoral researcher (funded via a Kekul
 
 We have several exciting interdisciplinary research projects in organic chemistry, peptide synthesis and biochemistry waiting for you. If you are interested, please drop Christian an [email](mailto:chs996@gmail.com) including a summary of your previous experience, your preferred starting date and the direction you are most excited about.
 
-### Student assistant (10 h/week)
+### Student assistant (8 h/week)
 
-[DETAILS: tasks, requirements]
+We have an open position for a student assistant to work on recombinant protein expression and biochemical experiments. Previous experience in biochemistry or molecular biology is required. If you are interested, please [email](mailto:chs996@gmail.com) Christian a short motivation statement and describe your previous research experience with proteins.
 
 {% include section.html %}
 
