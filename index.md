@@ -39,7 +39,7 @@ The Stieger Lab works at the interface of synthetic chemistry, chemical biology 
 
 The Stieger Lab opens at TUM in January 2027, and we are building our team. We are looking for curious people at all levels: PhD students, Master's and Bachelor's thesis students, and a student assistant. Whether your background is in organic synthesis, chemical biology, biochemistry, cell biology or pharmaceutical sciences, there is a project for you.
 
-Interested? Just drop Christian an email and let's chat about science!
+Interested? Just drop Christian an [email](mailto:chs996@gmail.com) and let's chat about science!
 
 {%
   include button.html
