@@ -63,7 +63,7 @@ We are recruiting a PhD student, Master's and Bachelor's thesis students, and a 
 %}
 
 {% comment %}
-Team section hidden for now: delete this line and the {% endcomment %} line below to show it again.
+Team section hidden for now. To show it again, delete the comment and endcomment lines around it.
 
 {% capture text %}
 
