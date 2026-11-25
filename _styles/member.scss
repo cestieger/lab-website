@@ -12,13 +12,13 @@
   margin-bottom: 0;
 }
 
-// Team page: compact title band (about twice the height of the "Team" heading)
-main section:first-child:has(h1 .fa-users) {
+// every page: compact 76px title band (twice the heading height); not the homepage logo block
+main section:first-child:has(h1):not(:has(.lab-hero)) {
   padding-top: 19px;
   padding-bottom: 19px;
 }
 
-main section:first-child:has(h1 .fa-users) h1 {
+main section:first-child:has(h1):not(:has(.lab-hero)) h1 {
   margin: 0;
 }
 
