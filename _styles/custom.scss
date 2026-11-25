@@ -12,3 +12,8 @@ main :is(h2, h3, h4, h5, h6),
   font-size: 1.6rem;
   font-weight: var(--regular);
 }
+
+// Join us page: same line spacing as the homepage research text
+main:has(h1 .fa-user-plus) p {
+  line-height: 1.6;
+}
