@@ -8,4 +8,8 @@ main :is(h2, h3, h4, h5, h6),
   font-weight: var(--regular);
 }
 
+main:has(h1 .fa-user-plus) p {
+  line-height: 1.6;
+}
+
 /*# sourceMappingURL=custom.css.map */
