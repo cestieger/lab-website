@@ -9,7 +9,7 @@
   justify-content: center;
   gap: 15px;
   text-align: center;
-  margin: 10px 0 0;
+  margin: 0;
 }
 
 .lab-hero img {
@@ -40,8 +40,10 @@
 }
 
 // less space between the title block and the first homepage box
+// equal space above and below, so the logo block sits in the middle of its band
 section:has(.lab-hero) {
-  padding-bottom: 12px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 section:has(.lab-hero) + section {
