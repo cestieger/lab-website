@@ -11,3 +11,27 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
+// Team page: compact title band (about twice the height of the "Team" heading)
+main section:first-child:has(h1 .fa-users) {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+main section:first-child:has(h1 .fa-users) h1 {
+  margin: 0;
+}
+
+// member names in bold
+.portrait-name {
+  font-weight: 700;
+}
+
+// Team page list: hide the affiliation line (kept on the profile page)
+.portrait-affiliation {
+  display: none;
+}
+
+.member-portrait .portrait-affiliation {
+  display: block;
+}
