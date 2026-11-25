@@ -86,4 +86,9 @@
   line-height: 1.6;
 }
 
+.feature-text:only-child,
+.feature-text:only-child p {
+  text-align: center;
+}
+
 /*# sourceMappingURL=feature.css.map */
