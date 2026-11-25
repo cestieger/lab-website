@@ -24,9 +24,3 @@ We have several exciting interdisciplinary research projects in organic chemistr
 ### Student assistant (8 h/week)
 
 We have an open position for a student assistant to work on recombinant protein expression and biochemical experiments. Previous experience in biochemistry or molecular biology is required. If you are interested, please [email](mailto:chs996@gmail.com) Christian a short motivation statement and describe your previous research experience with proteins.
-
-{% include section.html %}
-
-## How to apply
-
-[HOW TO APPLY: what to send (CV, motivation letter, references) and to which email address]
