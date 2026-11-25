@@ -4,7 +4,9 @@ layout: default
 
 {% capture floatcontent %}
 
+<div class="member-portrait">
 {% include portrait.html lookup=page.slug %}
+</div>
 
 <div>
   {% for link in page.links %}
@@ -18,7 +20,9 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
+<div class="member-bio">
 {{ content }}
+</div>
 
 {% assign aliases = page.aliases
   | default: page.name
