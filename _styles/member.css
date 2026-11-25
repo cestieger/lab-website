@@ -7,4 +7,25 @@
   margin-bottom: 0;
 }
 
+main section:first-child:has(h1 .fa-users) {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+main section:first-child:has(h1 .fa-users) h1 {
+  margin: 0;
+}
+
+.portrait-name {
+  font-weight: 700;
+}
+
+.portrait-affiliation {
+  display: none;
+}
+
+.member-portrait .portrait-affiliation {
+  display: block;
+}
+
 /*# sourceMappingURL=member.css.map */
