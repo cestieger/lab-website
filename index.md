@@ -62,7 +62,7 @@ There is a lab coat waiting for you. Get in touch, and let's talk science!
   include feature.html
   image="images/tum-building.jpg"
   link="join"
-  title="Join the Stieger Lab"
+  title="Become a Team Member"
   text=text
 %}
 
