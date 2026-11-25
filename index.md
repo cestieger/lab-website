@@ -41,11 +41,9 @@ Our long-term goal is to develop new therapeutic strategies that exploit the tra
 
 {% capture text %}
 
-The Stieger Lab opens at TUM in January 2027, and we are building our team. We use chemistry to tackle problems that conventional drugs cannot reach, from new covalent chemistries to molecules that switch disease genes off.
+The Stieger Lab opens at TUM in January 2027, and we are building our team. We are looking for curious people at all levels: PhD students, Master's and Bachelor's thesis students, and a student assistant. Whether your background is in organic synthesis, chemical biology, biochemistry, cell biology or pharmaceutical sciences, there is a project for you.
 
-We are looking for curious people at all levels: PhD students, Master's and Bachelor's thesis students, and a student assistant. Whether your background is in organic synthesis, chemical biology, biochemistry, cell biology or pharmaceutical sciences, there is a project for you.
-
-Get in touch, and let's talk science!
+Interested? Just drop Christian an email and let's chat about science!
 
 {%
   include button.html
