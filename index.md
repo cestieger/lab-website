@@ -45,7 +45,7 @@ The Stieger Lab opens at TUM in January 2027, and we are building our team. We u
 
 We are looking for curious people at all levels: PhD students, Master's and Bachelor's thesis students, and a student assistant. Whether your background is in organic synthesis, chemical biology, biochemistry, cell biology or pharmaceutical sciences, there is a project for you.
 
-There is a lab coat waiting for you. Get in touch, and let's talk science!
+Get in touch, and let's talk science!
 
 {%
   include button.html
@@ -62,7 +62,7 @@ There is a lab coat waiting for you. Get in touch, and let's talk science!
   include feature.html
   image="images/tum-building.jpg"
   link="join"
-  title="Become a Team Member"
+  title="Your Lab Coat Is Waiting"
   text=text
 %}
 
