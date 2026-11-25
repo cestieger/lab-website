@@ -8,7 +8,7 @@
 
 // all headings the same size as the page titles (e.g. "Team"); the homepage lab name keeps its own size
 main :is(h2, h3, h4, h5, h6),
-.feature-title {
+.feature .feature-title {
   font-size: 1.6rem;
   font-weight: var(--regular);
 }
