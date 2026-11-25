@@ -1,0 +1,11 @@
+.anchor {
+  display: none !important;
+}
+
+main :is(h2, h3, h4, h5, h6),
+.feature-title {
+  font-size: 1.6rem;
+  font-weight: var(--regular);
+}
+
+/*# sourceMappingURL=custom.css.map */
