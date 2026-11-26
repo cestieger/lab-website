@@ -564,6 +564,7 @@ main > section:not(:first-child) h2 {
 @media (min-width: 801px) {
   .u-topics {
     grid-template-rows: auto auto auto;
+    row-gap: 0;
   }
   .u-topic {
     display: grid;
