@@ -29,4 +29,4 @@ We have several exciting interdisciplinary research projects in organic chemistr
 
 ## Open applications
 
-Even if no position is currently advertised, we are always happy to hear from motivated PhD and postdoc candidates who are excited about our research. We are glad to support applications for fellowships to join the lab. Please [email](mailto:chs996@gmail.com) Christian your CV, a short motivation statement and the research direction that interests you most.
+Don't see the right position? We are always happy to hear from curious PhD and postdoc candidates. If you are excited about using chemistry to control transcription, whether through covalent chemistry, peptide ligand discovery, chemoproteomics or chromatin biology, just send Christian an [email](mailto:chs996@gmail.com) with your CV and a few lines about what you would like to work on, and let's talk science!
