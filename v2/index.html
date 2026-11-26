@@ -41,24 +41,19 @@ a { color: inherit; }
 img { max-width: 100%; display: block; }
 .container { width: 100%; max-width: 1160px; margin: 0 auto; padding: 0 24px; }
 
-/* header: gradient banner with lab and TUM logos, menu bar below; both stay on screen */
-.site-top { position: sticky; top: 0; z-index: 10; }
-.topbar { background: #0d0f1a url(../images/header-gradient-v3.jpg) center / cover; }
-.topbar .container { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 13px; padding-bottom: 13px; }
-.logo { display: flex; align-items: center; gap: 12px; text-decoration: none; color: #fff; }
-.logo img { height: 34px; width: auto; }
-.logo span { font-size: 1.35em; font-weight: 400; letter-spacing: 0.02em; }
-.topbar .tum img { height: 34px; width: auto; }
-.topbar .tum:hover { opacity: 0.85; }
-.navbar { background: var(--dark); border-bottom: 1px solid rgba(255,255,255,0.06); }
-.navbar .container { display: flex; justify-content: center; padding-top: 10px; padding-bottom: 10px; }
-.menu { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; list-style: none; margin: 0; padding: 0; }
-.menu a { display: block; padding: 9px 20px; border-radius: 30px; color: rgba(255,255,255,0.85); text-decoration: none; font-size: 0.72em; font-weight: 400; letter-spacing: 0.14em; text-transform: uppercase; }
+/* header */
+.header { background: var(--dark); }
+.header .container { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; padding-top: 22px; padding-bottom: 22px; }
+.logo { display: flex; align-items: center; gap: 14px; text-decoration: none; color: #fff; }
+.logo img { height: 40px; width: auto; }
+.logo span { font-size: 1.6em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+.menu { display: flex; flex-wrap: wrap; gap: 4px; list-style: none; margin: 0; padding: 0; }
+.menu a { display: block; padding: 10px 20px; border-radius: 30px; color: rgba(255,255,255,0.85); text-decoration: none; font-size: 0.72em; font-weight: 400; letter-spacing: 0.14em; text-transform: uppercase; }
 .menu a:hover { color: #fff; }
 .menu .current a { background: var(--accent); color: var(--on-accent); }
 
 /* banner */
-.banner { background: var(--dark); color: rgba(255,255,255,0.7); text-align: center; padding: 60px 0 100px; }
+.banner { background: var(--dark); color: rgba(255,255,255,0.7); text-align: center; padding: 70px 0 110px; }
 .banner h1 { margin: 0 auto 26px; max-width: 900px; color: #fff; font-size: 3em; font-weight: 300; line-height: 1.2; }
 .banner p { margin: 0 auto; max-width: 760px; font-size: 1.2em; }
 .banner p strong { color: #fff; font-weight: 600; }
@@ -120,7 +115,7 @@ img { max-width: 100%; display: block; }
 .preview-note a { color: var(--on-accent); font-weight: 600; }
 
 @media (max-width: 760px) {
-  .menu a { padding: 8px 12px; }
+  .header .container { justify-content: center; }
   .banner { padding: 50px 0 80px; }
   .banner h1 { font-size: 2.1em; }
   .main-title h2 { font-size: 2.1em; }
@@ -134,20 +129,13 @@ img { max-width: 100%; display: block; }
 
 <div class="preview-note">Design preview based on the "Untamed" template · <a href="../">back to the current website</a></div>
 
-<div class="site-top">
-  <header class="topbar">
-    <div class="container">
-      <a class="logo" href="./">
-        <img src="../images/logo.svg" alt="Stieger Lab logo">
-        <span>Stieger Lab</span>
-      </a>
-      <a class="tum" href="https://www.tum.de" target="_blank" rel="noopener" aria-label="Technical University of Munich">
-        <img src="../images/tum-lockup-white.png" alt="TUM – Technical University of Munich">
-      </a>
-    </div>
-  </header>
-  <nav class="navbar" aria-label="Main">
-    <div class="container">
+<header class="header">
+  <div class="container">
+    <a class="logo" href="./">
+      <img src="../images/logo.svg" alt="Stieger Lab logo">
+      <span>Stieger Lab</span>
+    </a>
+    <nav>
       <ul class="menu">
         <li class="current"><a href="./">Home</a></li>
         <li><a href="../research/">Research</a></li>
@@ -156,9 +144,9 @@ img { max-width: 100%; display: block; }
         <li><a href="../blog/">News</a></li>
         <li><a href="../join/">Join us</a></li>
       </ul>
-    </div>
-  </nav>
-</div>
+    </nav>
+  </div>
+</header>
 
 <section class="banner">
   <div class="container">
