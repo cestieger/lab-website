@@ -609,3 +609,20 @@ main > section:not(:first-child) h2 {
     grid-template-rows: subgrid;
   }
 }
+
+// homepage banner: Munich line drawing along the bottom edge
+main > section:first-child:has(.u-banner) {
+  background-image: url("../images/banner-munich-line.png");
+  background-repeat: no-repeat;
+  background-position: center bottom 20px;
+  background-size: 100% auto;
+  padding-top: 70px;
+  padding-bottom: clamp(140px, 22vw, 330px);
+}
+
+@media (max-width: 760px) {
+  main > section:first-child:has(.u-banner) {
+    background-size: 160% auto;
+    padding-bottom: 170px;
+  }
+}
