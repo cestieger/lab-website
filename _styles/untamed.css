@@ -575,16 +575,16 @@ main > section:not(:first-child) h2 {
 main > section:first-child:has(.u-banner) {
   background-image: url("../images/banner-munich-line-v3.png");
   background-repeat: no-repeat;
-  background-position: center bottom 20px;
-  background-size: 100% auto;
+  background-position: center bottom 24px;
+  background-size: min(1100px, 86%) auto;
   padding-top: 70px;
-  padding-bottom: clamp(140px, 22vw, 330px);
+  padding-bottom: clamp(110px, 18vw, 240px);
 }
 
 @media (max-width: 760px) {
   main > section:first-child:has(.u-banner) {
-    background-size: 160% auto;
-    padding-bottom: 170px;
+    background-size: 100% auto;
+    padding-bottom: 110px;
   }
 }
 
