@@ -26,6 +26,7 @@
   file: sources.yaml
   group: berkeley
   highlight: true
+  image: images/publications/acscentsci-5c02277.jpg
 - id: doi:10.1021/jacs.5c22349
   title: Modular Vinyl Phosphonamidates for Cysteine-Directed Protein Targeting
   authors:
@@ -49,6 +50,7 @@
   plugin: sources.py
   file: sources.yaml
   highlight: true
+  image: images/publications/jacs-5c22349.jpg
 - id: doi:10.64898/2026.01.13.697720
   title: Active Site-Directed Probes for targeting Bacterial Phosphoarginine Phosphatases
   authors:
@@ -208,6 +210,7 @@
   plugin: sources.py
   file: sources.yaml
   highlight: true
+  image: images/publications/anie-202508656.jpg
 - id: doi:10.26434/CHEMRXIV-2024-T9N2B
   title: Chemoselective placement of unsaturated phosphorus electrophiles into ubiquitin
     for proximity-induced protein targeting
@@ -285,6 +288,7 @@
   plugin: sources.py
   file: sources.yaml
   highlight: true
+  image: images/publications/anie-202205348.jpg
 - id: doi:10.1002/ANIE.202100683
   title: "Diethynyl Phosphinates for Cysteine\u2010Selective Protein Labeling and\
     \ Disulfide Rebridging"
@@ -300,6 +304,7 @@
   plugin: sources.py
   file: sources.yaml
   highlight: true
+  image: images/publications/anie-202100683.jpg
 - id: doi:10.1021/ACS.JPROTEOME.0C01000
   title: 'MS Annika: A New Cross-Linking Search Engine'
   authors:
