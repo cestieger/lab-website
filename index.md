@@ -82,19 +82,28 @@
   <span class="u-sub">The Stieger Lab opens at TUM in January 2027, and we are building our team.</span>
 </div>
 
-<div class="u-boxes">
+<div class="u-boxes three">
   <div class="u-box">
     <div class="u-icon"><i class="fa-solid fa-flask"></i></div>
-    <h2>Doctoral researcher</h2>
-    <span class="u-byline">Funded via a Kekulé Fellowship of the FCI</span>
+    <h3>Doctoral researcher</h3>
+    <span class="u-byline">Kekulé Fellowship of the FCI</span>
     <p>A doctoral project in peptide chemistry and induced proximity for candidates with experience in synthetic organic chemistry, peptide chemistry or biochemistry. Knowledge of mass spectrometry-based proteomics, metabolomics or lipidomics is a strong plus.</p>
-    <a href="{{ 'join' | relative_url }}" class="button">Open positions</a>
+  </div>
+  <div class="u-box">
+    <div class="u-icon"><i class="fa-solid fa-vials"></i></div>
+    <h3>Student assistant (8 h/week)</h3>
+    <span class="u-byline">Protein expression and biochemistry</span>
+    <p>Work on recombinant protein expression and biochemical experiments. Previous experience in biochemistry or molecular biology is required.</p>
   </div>
   <div class="u-box">
     <div class="u-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-    <h2>Students</h2>
-    <span class="u-byline">Thesis projects and student assistant</span>
-    <p>Interdisciplinary Master's and Bachelor's thesis projects in organic chemistry, peptide synthesis and biochemistry, and a student assistant position (8 h/week) in recombinant protein expression and biochemical experiments.</p>
-    <a href="mailto:chs996@gmail.com" class="button">Get in touch</a>
+    <h3>Bachelor's and Master's thesis students</h3>
+    <span class="u-byline">Interdisciplinary projects</span>
+    <p>Exciting interdisciplinary research projects in organic chemistry, peptide synthesis and biochemistry are waiting for you.</p>
   </div>
+</div>
+
+<div class="u-cta">
+  <a href="{{ 'join' | relative_url }}" class="button">Open positions</a>
+  <a href="mailto:chs996@gmail.com" class="button">Get in touch</a>
 </div>
