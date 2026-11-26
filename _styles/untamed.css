@@ -320,5 +320,12 @@ main > section:first-child:has(.u-banner) {
     padding-top: 40px;
   }
 }
+.u-title h2,
+.u-featured-title h2,
+.u-box h2 {
+  text-align: center;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
 
 /*# sourceMappingURL=untamed.css.map */
