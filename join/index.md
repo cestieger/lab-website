@@ -27,6 +27,6 @@ We have several exciting interdisciplinary research projects in organic chemistr
 
 {% include section.html %}
 
-## Open applications
+## Get in Touch
 
 Don't see the right position? We are always happy to hear from curious PhD and postdoc candidates. If you are excited about using chemistry to control transcription, whether through covalent chemistry, peptide ligand discovery, chemoproteomics or chromatin biology, just send Christian an [email](mailto:chs996@gmail.com) with your CV and a few lines about what you would like to work on, and let's talk science!
