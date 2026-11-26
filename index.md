@@ -4,7 +4,6 @@
 <div class="u-banner">
   <h1>Chemical Biology and Induced Proximity for Novel Therapeutics</h1>
   <p>The <strong>Stieger Lab</strong> at the Technical University of Munich works at the interface of synthetic chemistry, chemical biology and drug discovery.</p>
-  <a href="{{ 'research' | relative_url }}" class="button">Our research</a>
 </div>
 
 {% include section.html %}
