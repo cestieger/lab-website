@@ -7,12 +7,12 @@
   margin-bottom: 0;
 }
 
-main section:first-child:has(h1):not(:has(.lab-hero)) {
+main section:first-child:has(h1):not(:has(.u-banner)) {
   padding-top: 19px;
   padding-bottom: 19px;
 }
 
-main section:first-child:has(h1):not(:has(.lab-hero)) h1 {
+main section:first-child:has(h1):not(:has(.u-banner)) h1 {
   margin: 0;
 }
 
