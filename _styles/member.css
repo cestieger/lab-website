@@ -28,4 +28,8 @@ main section:first-child:has(h1):not(:has(.lab-hero)) h1 {
   display: block;
 }
 
+.member-bio p {
+  line-height: 1.6;
+}
+
 /*# sourceMappingURL=member.css.map */
