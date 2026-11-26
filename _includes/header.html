@@ -1,62 +1,40 @@
-{% assign image = page.header | default: site.header %}
-{% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
-
 {% assign svg = "images/logo.svg" | file_exists %}
 {% assign png = "images/logo.png" | file_exists %}
-{% assign jpg = "images/logo.jpg" | file_exists %}
-{% assign logo = svg | default: png | default: jpg | default: nil %}
+{% assign logo = svg | default: png | default: nil %}
+
+{% assign pages = site.pages
+  | where_exp: "page", "page.nav"
+  | sort: "nav.order"
+%}
 
 <div class="site-top">
-<header
-  class="background"
-  style="--image: url('{{ image | relative_url | uri_escape }}')"
-  {% if dark == true or dark == false %}
-    data-dark="{{ dark }}"
-  {% endif %}
->
-  <a href="{{ "/" | relative_url }}" class="home">
-    {% if logo %}
-      <span class="logo">
-        {% if svg %}
-          {{ svg | file_read }}
-        {% else %}
-          <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
-        {% endif %}
-      </span>
-    {% endif %}
-    {% if site.logo-text != false %}
-      <span class="title-text" data-tooltip="Home">
-        {% if site.title and site.show-title != false %}
-          <span class="title">{{ site.title }}</span>
-        {% endif %}
-        {% if site.subtitle and site.show-subtitle != false %}
-          <span class="subtitle">{{ site.subtitle }}</span>
-        {% endif %}
-      </span>
-    {% endif %}
-  </a>
-
-  <a class="header-partner" href="https://www.tum.de" target="_blank" rel="noopener" aria-label="Technical University of Munich">
-    <img src="{{ 'images/tum-lockup-white.png' | relative_url }}" alt="TUM – Technical University of Munich">
-  </a>
-</header>
-
-<div class="nav-bar">
-  <nav>
-    {% assign pages = site.pages
-      | where_exp: "page", "page.nav"
-      | sort: "nav.order"
-    %}
-    {% for page in pages %}
-      {% if page.nav %}
-        <a
-          href="{{ page.dir | relative_url | uri_escape }}"
-          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
-        >
-          {{ page.title }}
-        </a>
+  <header class="untamed-header">
+    <a href="{{ "/" | relative_url }}" class="home" aria-label="Stieger Lab – home">
+      {% if logo %}
+        <span class="logo">
+          {% if svg %}
+            {{ svg | file_read }}
+          {% else %}
+            <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
+          {% endif %}
+        </span>
       {% endif %}
-    {% endfor %}
-  </nav>
-</div>
+      <span class="title">{{ site.title }}</span>
+    </a>
+
+    <nav class="untamed-menu" aria-label="Main">
+      <a href="{{ "/" | relative_url }}" {% if page.url == "/" %}class="current" aria-current="page"{% endif %}>Home</a>
+      {% for item in pages %}
+        {% assign current = false %}
+        {% if page.url == item.url %}{% assign current = true %}{% endif %}
+        {% if page.dir == item.dir and item.dir != "/" %}{% assign current = true %}{% endif %}
+        {% if item.dir == "/blog/" and page.layout == "post" %}{% assign current = true %}{% endif %}
+        {% if item.dir == "/team/" and page.layout == "member" %}{% assign current = true %}{% endif %}
+        <a
+          href="{{ item.dir | relative_url | uri_escape }}"
+          {% if current %}class="current" aria-current="page"{% endif %}
+        >{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </header>
 </div>
