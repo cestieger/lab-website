@@ -9,42 +9,71 @@
 
 {% include section.html %}
 
-<div class="u-page">
-  <div class="u-content">
-    <div class="u-title">
-      <h2>Research</h2>
-      <span class="u-byline">Chemical tools to modulate oncogenic transcription</span>
-    </div>
-    <a href="{{ 'research' | relative_url }}"><img src="{{ 'images/research-figure-v3.png' | relative_url }}" alt="Induced proximity: an epigenetic effector is recruited to a transcription factor, switching target genes off"></a>
-    <p>We combine new covalent chemistries, high-throughput discovery of peptide and peptidomimetic ligands, and genome-wide profiling of chromatin regulators to design chemical tools to modulate oncogenic transcription.</p>
-    <p>Our long-term goal is to develop new therapeutic strategies against cancer and to gain a deeper understanding of how chromatin regulation shapes gene expression.</p>
+<div class="u-title">
+  <h2>Research</h2>
+  <span class="u-byline">Chemical tools to modulate oncogenic transcription</span>
+</div>
+
+<p class="u-intro">We combine new covalent chemistries, high-throughput discovery of peptide and peptidomimetic ligands, and induced proximity to design chemical tools that modulate oncogenic transcription.</p>
+
+<div class="u-topics">
+  <div class="u-topic">
+    <h3>Covalent chemistries</h3>
+    <div class="u-placeholder"><i class="fa-solid fa-atom"></i><span>Figure coming soon</span></div>
+    <p>We develop new covalent chemistries to target proteins selectively.</p>
   </div>
+  <div class="u-topic">
+    <h3>Peptide ligand discovery</h3>
+    <div class="u-placeholder"><i class="fa-solid fa-vials"></i><span>Figure coming soon</span></div>
+    <p>We discover peptide and peptidomimetic ligands in high throughput.</p>
+  </div>
+  <div class="u-topic">
+    <h3>Induced proximity</h3>
+    <div class="u-placeholder"><i class="fa-solid fa-link"></i><span>Figure coming soon</span></div>
+    <p>We bring effector proteins to transcription factors to switch oncogenic genes off.</p>
+  </div>
+</div>
 
-  <aside class="u-sidebar">
-    <ul class="u-list">
-      <li>
-        <h3>Covalent chemistries</h3>
-        <p>New covalent chemistries for targeting proteins.</p>
-      </li>
-      <li>
-        <h3>Peptide ligand discovery</h3>
-        <p>High-throughput discovery of peptide and peptidomimetic ligands.</p>
-      </li>
-      <li>
-        <h3>Chromatin profiling</h3>
-        <p>Genome-wide profiling of chromatin regulators and gene expression.</p>
-      </li>
-    </ul>
+<div class="u-cta">
+  <a href="{{ 'research' | relative_url }}" class="button">More about our research</a>
+</div>
 
-    <h3>Selected publications</h3>
-    <ul class="u-links-list">
-      <li><a href="https://doi.org/10.1021/acscentsci.5c02277" target="_blank" rel="noopener">Targeted Transcriptional Repression by Induced Proximity</a><span class="u-meta">ACS Central Science, 2026</span></li>
-      <li><a href="https://doi.org/10.1021/jacs.5c22349" target="_blank" rel="noopener">Modular Vinyl Phosphonamidates for Cysteine-Directed Protein Targeting</a><span class="u-meta">J. Am. Chem. Soc., 2026</span></li>
-      <li><a href="https://doi.org/10.1002/anie.202508656" target="_blank" rel="noopener">Unsaturated Phosphine Oxides for Modular Antibody Rebridging and Single Reagent Peptide-Cyclization-Bioconjugation</a><span class="u-meta">Angew. Chem. Int. Ed., 2025</span></li>
-      <li><a href="https://doi.org/10.1002/anie.202205348" target="_blank" rel="noopener">DFT-Guided Discovery of Ethynyl-Triazolyl-Phosphinates as Modular Electrophiles</a><span class="u-meta">Angew. Chem. Int. Ed., 2022</span></li>
-      <li><a href="https://doi.org/10.1002/anie.202100683" target="_blank" rel="noopener">Diethynyl Phosphinates for Cysteine-Selective Protein Labeling and Disulfide Rebridging</a><span class="u-meta">Angew. Chem. Int. Ed., 2021</span></li>
-    </ul>
-  </aside>
+{% include section.html %}
+
+<div class="u-title">
+  <h2>Selected Publications</h2>
+</div>
+
+<div class="u-pubs">
+  <a class="u-pub" href="https://doi.org/10.1021/acscentsci.5c02277" target="_blank" rel="noopener">
+    <img src="{{ 'images/publications/acscentsci-5c02277.jpg' | relative_url }}" alt="">
+    <span class="u-pub-title">Targeted Transcriptional Repression by Induced Proximity</span>
+    <span class="u-meta">ACS Central Science, 2026</span>
+  </a>
+  <a class="u-pub" href="https://doi.org/10.1021/jacs.5c22349" target="_blank" rel="noopener">
+    <img src="{{ 'images/publications/jacs-5c22349.jpg' | relative_url }}" alt="">
+    <span class="u-pub-title">Modular Vinyl Phosphonamidates for Cysteine-Directed Protein Targeting</span>
+    <span class="u-meta">J. Am. Chem. Soc., 2026</span>
+  </a>
+  <a class="u-pub" href="https://doi.org/10.1002/anie.202508656" target="_blank" rel="noopener">
+    <img src="{{ 'images/publications/anie-202508656.jpg' | relative_url }}" alt="">
+    <span class="u-pub-title">Unsaturated Phosphine Oxides for Modular Antibody Rebridging and Single Reagent Peptide-Cyclization-Bioconjugation</span>
+    <span class="u-meta">Angew. Chem. Int. Ed., 2025</span>
+  </a>
+  <a class="u-pub" href="https://doi.org/10.1002/anie.202205348" target="_blank" rel="noopener">
+    <img src="{{ 'images/publications/anie-202205348.jpg' | relative_url }}" alt="">
+    <span class="u-pub-title">DFT-Guided Discovery of Ethynyl-Triazolyl-Phosphinates as Modular Electrophiles</span>
+    <span class="u-meta">Angew. Chem. Int. Ed., 2022</span>
+  </a>
+  <a class="u-pub" href="https://doi.org/10.1002/anie.202100683" target="_blank" rel="noopener">
+    <img src="{{ 'images/publications/anie-202100683.jpg' | relative_url }}" alt="">
+    <span class="u-pub-title">Diethynyl Phosphinates for Cysteine-Selective Protein Labeling and Disulfide Rebridging</span>
+    <span class="u-meta">Angew. Chem. Int. Ed., 2021</span>
+  </a>
+</div>
+
+<div class="u-cta">
+  <a href="{{ 'publications' | relative_url }}" class="button">See full list of publications</a>
 </div>
 
 {% include section.html %}
