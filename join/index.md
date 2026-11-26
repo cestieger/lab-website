@@ -1,7 +1,7 @@
 ---
 title: Join us
 nav:
-  order: 4
+  order: 5
   tooltip: Open positions
 ---
 
@@ -11,7 +11,7 @@ nav:
 
 We are always looking for motivated people to join the lab at the Technical University of Munich.
 
-## Open positions
+## Open Positions
 
 ### PhD student
 

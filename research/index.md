@@ -1,35 +1,16 @@
 ---
-title: Publications
+title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Our research
 ---
 
-# {% include icon.html icon="fa-solid fa-book-open" %}Publications
+# {% include icon.html icon="fa-solid fa-flask" %}Research
 
 {% include section.html %}
 
-## Selected Publications
+The Stieger Lab works at the interface of synthetic chemistry, chemical biology and drug discovery. We combine new covalent chemistries, high-throughput discovery of peptide and peptidomimetic ligands, and genome-wide profiling of chromatin regulators to design chemical tools to modulate oncogenic transcription. Our long-term goal is to develop new therapeutic strategies against cancer and to gain a deeper understanding of how chromatin regulation shapes gene expression.
 
-{% assign selected = site.data.citations | data_filter: "highlight == true" | sort: "date" | reverse %}
-<div class="citation-group">
-{% for d in selected %}{% include citation.html lookup=d.id style="rich" %}{% endfor %}
-</div>
+{% include figure.html image="images/research-figure-v3.png" caption="Chemical inducers of proximity recruit epigenetic effectors to transcription factors and switch target genes off." width="100%" %}
 
-{% include section.html %}
-
-## Publications from UC Berkeley
-
-{% include list.html data="citations" component="citation" style="rich" filter="group == 'berkeley'" %}
-
-{% include section.html %}
-
-## Publications from the Leibniz-Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin
-
-{% include list.html data="citations" component="citation" style="rich" filter="group != 'early' and group != 'berkeley'" %}
-
-{% include section.html %}
-
-## Master Thesis and Research Associate Publications
-
-{% include list.html data="citations" component="citation" filter="group == 'early'" %}
+More about our research projects coming soon.

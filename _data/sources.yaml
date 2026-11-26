@@ -117,3 +117,15 @@
   highlight: true
 - id: doi:10.1002/ANIE.202100683
   highlight: true
+
+# Abstract figures, shown only in Selected Publications
+- id: doi:10.1021/acscentsci.5c02277
+  image: images/publications/acscentsci-5c02277.jpg
+- id: doi:10.1021/jacs.5c22349
+  image: images/publications/jacs-5c22349.jpg
+- id: doi:10.1002/ANIE.202508656
+  image: images/publications/anie-202508656.jpg
+- id: doi:10.1002/ANIE.202205348
+  image: images/publications/anie-202205348.jpg
+- id: doi:10.1002/ANIE.202100683
+  image: images/publications/anie-202100683.jpg

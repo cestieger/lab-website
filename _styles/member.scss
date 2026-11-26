@@ -35,3 +35,8 @@ main section:first-child:has(h1):not(:has(.lab-hero)) h1 {
 .member-portrait .portrait-affiliation {
   display: block;
 }
+
+// profile page: bio line spacing like the homepage text
+.member-bio p {
+  line-height: 1.6;
+}

@@ -10,7 +10,7 @@
 
 <div class="citation-container">
   <div class="citation">
-    {% if include.style == "rich" and citation.image %}
+    {% if include.style == "rich" and citation.image and include.show_image %}
       <a
         {% if citation.link %}
           href="{{ citation.link | relative_url | uri_escape }}"

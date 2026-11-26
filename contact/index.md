@@ -1,8 +1,5 @@
 ---
 title: Contact
-nav:
-  order: 5
-  tooltip: Email and address
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
