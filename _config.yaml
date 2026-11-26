@@ -1,6 +1,8 @@
 # site properties and page defaults
 title: Stieger Lab
 subtitle:
+url: "https://cestieger.github.io"
+
 description: "Stieger Lab at the Technical University of Munich – Chemical Biology and Induced Proximity."
 header: images/header-gradient-v3.jpg
 footer: images/background.jpg
