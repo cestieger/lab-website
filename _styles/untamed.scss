@@ -477,3 +477,13 @@ main > section:not(:first-child) h2 {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 600px) {
+  main > section:first-child:not(:has(.u-banner)) h1 {
+    flex-direction: column;
+    gap: 8px;
+    font-size: 1.35rem !important;
+    line-height: 1.25;
+    text-align: center;
+  }
+}
