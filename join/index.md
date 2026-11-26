@@ -25,6 +25,8 @@ We have an open position for a student assistant to work on recombinant protein 
 
 We have several exciting interdisciplinary research projects in organic chemistry, peptide synthesis and biochemistry waiting for you. If you are interested, please drop Christian an [email](mailto:chs996@gmail.com) including a summary of your previous experience, your preferred starting date and the direction you are most excited about.
 
-### PhD students and postdocs: open applications
+{% include section.html %}
+
+## Open applications
 
 Even if no position is currently advertised, we are always happy to hear from motivated PhD and postdoc candidates who are excited about our research. We are glad to support applications for fellowships to join the lab. Please [email](mailto:chs996@gmail.com) Christian your CV, a short motivation statement and the research direction that interests you most.
