@@ -23,7 +23,7 @@
     <p>We develop new covalent chemistries to target proteins selectively.</p>
   </div>
   <div class="u-topic">
-    <h3>Peptide ligand discovery</h3>
+    <h3>Peptide ligands</h3>
     <div class="u-placeholder"><i class="fa-solid fa-vials"></i><span>Figure coming soon</span></div>
     <p>We discover peptide and peptidomimetic ligands in high throughput.</p>
   </div>

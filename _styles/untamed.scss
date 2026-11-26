@@ -595,3 +595,16 @@ main > section:not(:first-child) h2 {
     margin-right: auto;
   }
 }
+
+// keep the three topic figures on one line even if a heading wraps
+@media (min-width: 801px) {
+  .u-topics {
+    grid-template-rows: auto auto auto;
+  }
+
+  .u-topic {
+    display: grid;
+    grid-row: span 3;
+    grid-template-rows: subgrid;
+  }
+}
