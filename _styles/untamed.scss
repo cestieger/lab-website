@@ -646,3 +646,11 @@ main > section:first-child:has(.u-banner) .u-banner p {
     max-width: 100%;
   }
 }
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.u-boxes + .u-cta {
+  margin-top: 2.2em;
+}

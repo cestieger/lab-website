@@ -91,7 +91,7 @@
   </div>
   <div class="u-box">
     <div class="u-icon"><i class="fa-solid fa-vials"></i></div>
-    <h3>Student assistant (8 h/week)</h3>
+    <h3>Student assistant <span class="nowrap">(8 h/week)</span></h3>
     <span class="u-byline">Protein expression and biochemistry</span>
     <p>Work on recombinant protein expression and biochemical experiments. Previous experience in biochemistry or molecular biology is required.</p>
   </div>
