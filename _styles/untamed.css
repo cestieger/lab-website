@@ -19,18 +19,18 @@ main > section + section {
   border-top: 1px solid var(--light-gray);
 }
 
-main > section:first-child:not(:has(.u-banner)) {
+main > section:first-child:has(h1):not(:has(.u-banner)) {
   background: #2b2b2b;
   border-bottom: none;
 }
 
-main > section:first-child:not(:has(.u-banner)) h1 {
+main > section:first-child:has(h1):not(:has(.u-banner)) h1 {
   color: #ffffff;
   font-weight: var(--light);
   letter-spacing: 0.08em;
 }
 
-main > section:first-child:not(:has(.u-banner)) + section {
+main > section:first-child:has(h1):not(:has(.u-banner)) + section {
   border-top: none;
 }
 
@@ -336,7 +336,7 @@ main h3 {
   font-weight: 600 !important;
 }
 
-main > section:first-child:not(:has(.u-banner)) h1 {
+main > section:first-child:has(h1):not(:has(.u-banner)) h1 {
   font-weight: 700 !important;
   display: flex;
   align-items: center;
@@ -344,7 +344,7 @@ main > section:first-child:not(:has(.u-banner)) h1 {
   gap: 16px;
 }
 
-main > section:first-child:not(:has(.u-banner)) h1 > .icon {
+main > section:first-child:has(h1):not(:has(.u-banner)) h1 > .icon {
   width: 46px;
   height: 46px;
   margin: 0;
@@ -441,14 +441,14 @@ main > section:not(:first-child) h2 {
     border-top: 1px solid var(--light-gray);
     padding-top: 40px;
   }
-  main > section:first-child:not(:has(.u-banner)) h1 > .icon {
+  main > section:first-child:has(h1):not(:has(.u-banner)) h1 > .icon {
     width: 38px;
     height: 38px;
     font-size: 1rem;
   }
 }
 @media (max-width: 600px) {
-  main > section:first-child:not(:has(.u-banner)) h1 {
+  main > section:first-child:has(h1):not(:has(.u-banner)) h1 {
     flex-direction: column;
     gap: 8px;
     font-size: 1.35rem !important;
