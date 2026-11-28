@@ -574,11 +574,11 @@ main > section:not(:first-child) h2 {
 }
 main > section:first-child:has(.u-banner) {
   --art-w: min(96vw, 1500px);
-  background-image: url("../images/banner-munich-line-v3.png");
+  background-image: url("../images/banner-munich-line-v4.png");
   background-repeat: no-repeat;
   background-position: center top 34px;
   background-size: var(--art-w) auto;
-  min-height: calc(var(--art-w) * 0.2665 + 70px);
+  min-height: calc(var(--art-w) * 0.2584 + 70px);
   padding-top: 44px;
   padding-bottom: 40px;
 }
