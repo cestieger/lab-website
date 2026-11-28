@@ -11,6 +11,8 @@ aliases:
   - Christian Stieger
 links:
   orcid: 0000-0001-5829-2307
+  google-scholar: cFVGKN0AAAAJ
+  linkedin: christian-e-stieger
 ---
 
 Christian studied chemistry at the University of Vienna and completed his master's thesis on structural proteomics in the group of Karl Mechtler at the Research Institute of Molecular Pathology (IMP).

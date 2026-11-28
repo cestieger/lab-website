@@ -17,9 +17,9 @@
 
 <div class="u-topics">
   <div class="u-topic">
-    <h3>Covalent chemistries</h3>
-    <div class="u-placeholder"><i class="fa-solid fa-atom"></i><span>Figure coming soon</span></div>
-    <p>We develop new covalent chemistries to target proteins selectively.</p>
+    <h3>Induced proximity</h3>
+    <img src="{{ 'images/research-figure-v3.png' | relative_url }}" alt="Induced proximity: an epigenetic effector is recruited to a transcription factor, switching target genes off">
+    <p>We bring effector proteins to transcription factors to switch oncogenic genes off.</p>
   </div>
   <div class="u-topic">
     <h3>Peptide ligands</h3>
@@ -27,14 +27,44 @@
     <p>We discover peptide and peptidomimetic ligands in high throughput.</p>
   </div>
   <div class="u-topic">
-    <h3>Induced proximity</h3>
-    <div class="u-placeholder"><i class="fa-solid fa-link"></i><span>Figure coming soon</span></div>
-    <p>We bring effector proteins to transcription factors to switch oncogenic genes off.</p>
+    <h3>Covalent chemistries</h3>
+    <div class="u-placeholder"><i class="fa-solid fa-atom"></i><span>Figure coming soon</span></div>
+    <p>We develop new covalent chemistries to target proteins selectively.</p>
   </div>
 </div>
 
 <div class="u-cta">
   <a href="{{ 'research' | relative_url }}" class="button">More about our research</a>
+</div>
+
+{% include section.html %}
+
+<div class="u-featured-title">
+  <h2>Your Lab Coat Is Waiting</h2>
+  <span class="u-sub">Check out our open positions</span>
+</div>
+
+<div class="u-boxes three">
+  <div class="u-box">
+    <div class="u-icon"><i class="fa-solid fa-flask"></i></div>
+    <h3>Doctoral researcher</h3>
+    <span class="u-byline">Peptide chemistry and induced proximity</span>
+  </div>
+  <div class="u-box">
+    <div class="u-icon"><i class="fa-solid fa-vials"></i></div>
+    <h3>Student assistant <span class="nowrap">(8 h/week)</span></h3>
+    <span class="u-byline">Protein expression and biochemistry</span>
+  </div>
+  <div class="u-box">
+    <div class="u-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+    <h3>Bachelor's and Master's thesis students</h3>
+    <span class="u-byline">Interdisciplinary projects</span>
+  </div>
+</div>
+
+<div class="u-cta">
+  <a href="{{ 'join' | relative_url }}" class="button">Open positions</a>
+  <a href="mailto:chs996@gmail.com" class="button">Get in touch</a>
 </div>
 
 {% include section.html %}
@@ -73,37 +103,4 @@
 
 <div class="u-cta">
   <a href="{{ 'publications' | relative_url }}" class="button">See full list of publications</a>
-</div>
-
-{% include section.html %}
-
-<div class="u-featured-title">
-  <h2>Your Lab Coat Is Waiting</h2>
-  <span class="u-sub">The Stieger Lab opens at TUM in January 2027, and we are building our team.</span>
-</div>
-
-<div class="u-boxes three">
-  <div class="u-box">
-    <div class="u-icon"><i class="fa-solid fa-flask"></i></div>
-    <h3>Doctoral researcher</h3>
-    <span class="u-byline">Kekulé Fellowship of the FCI</span>
-    <p>A doctoral project in peptide chemistry and induced proximity for candidates with experience in synthetic organic chemistry, peptide chemistry or biochemistry. Knowledge of mass spectrometry-based proteomics, metabolomics or lipidomics is a strong plus.</p>
-  </div>
-  <div class="u-box">
-    <div class="u-icon"><i class="fa-solid fa-vials"></i></div>
-    <h3>Student assistant <span class="nowrap">(8 h/week)</span></h3>
-    <span class="u-byline">Protein expression and biochemistry</span>
-    <p>Work on recombinant protein expression and biochemical experiments. Previous experience in biochemistry or molecular biology is required.</p>
-  </div>
-  <div class="u-box">
-    <div class="u-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-    <h3>Bachelor's and Master's thesis students</h3>
-    <span class="u-byline">Interdisciplinary projects</span>
-    <p>Exciting interdisciplinary research projects in organic chemistry, peptide synthesis and biochemistry are waiting for you.</p>
-  </div>
-</div>
-
-<div class="u-cta">
-  <a href="{{ 'join' | relative_url }}" class="button">Open positions</a>
-  <a href="mailto:chs996@gmail.com" class="button">Get in touch</a>
 </div>
