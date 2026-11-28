@@ -654,3 +654,11 @@ main > section:first-child:has(.u-banner) .u-banner p {
 .u-boxes + .u-cta {
   margin-top: 2.2em;
 }
+
+// mid-size screens: the text wraps to more lines, so the drawing sits a bit lower
+@media (min-width: 901px) and (max-width: 1199px) {
+  main > section:first-child:has(.u-banner) {
+    background-position: center top 84px;
+    min-height: calc(var(--art-w) * 0.2584 + 120px);
+  }
+}
