@@ -613,4 +613,11 @@ main > section:first-child:has(.u-banner) .u-banner p {
   margin-top: 2.2em;
 }
 
+@media (min-width: 901px) and (max-width: 1199px) {
+  main > section:first-child:has(.u-banner) {
+    background-position: center top 84px;
+    min-height: calc(var(--art-w) * 0.2584 + 120px);
+  }
+}
+
 /*# sourceMappingURL=untamed.css.map */
